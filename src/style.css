@@ -23,8 +23,8 @@ body{
 .navbar{
     background-color: black;
 }
-.navbar ul{
-    overflow: auto;
+#nav-links{
+    padding-left: 56vw;
     text-align: right;
 }
 .navbar li{
@@ -46,6 +46,30 @@ body{
     color:white;
     padding-left: 2vw;
 } 
+@media(max-width:1393px){
+  #nav-links{
+    padding-left: 54vw;
+    text-align: right;
+}
+}
+@media(max-width:1298px){
+  #nav-links{
+    padding-left: 50vw;
+    text-align: right;
+}
+}
+@media(max-width:1174px){
+  #nav-links{
+    padding-left: 46vw;
+    text-align: right;
+}
+}
+@media(max-width:1071px){
+  #nav-links{
+    padding-left: 42vw;
+    text-align: right;
+}
+}
 .banner-text {
     color: hsl(0, 0%, 28%);
     font-size: 50px;
