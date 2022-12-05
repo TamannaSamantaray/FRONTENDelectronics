@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Mukta+Malar:wght@500&family=Zilla+Slab:wght@500&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Mukta+Malar:wght@500&family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap'); 
 *{
     border: 0em;
     margin: 0em;
@@ -39,7 +40,7 @@ body{
     color: white;
 }
 .navbar li a:hover{
-    color:aqua;
+    color:rgba(128, 128, 128, 0.944);
     font-size: 1vw;
 }
 .nav-logo{
@@ -71,17 +72,18 @@ body{
 }
 }
 .banner-text {
-    color: hsl(0, 0%, 28%);
+    color:black;
     font-size: 50px;
     font-weight: bold;
-    font-family: monospace;
+    font-family: 'Bungee Inline', cursive;
     /* letter-spacing: 7px; */
     cursor: pointer;
     text-transform: uppercase; 
-    text-align: center;
+     margin-left: 25vw;
+
   }
   .banner-text {
-    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+    background: linear-gradient(to right, rgb(0, 0, 0) 0, grey 10%, black 20%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shine 3s infinite linear;
@@ -92,18 +94,57 @@ body{
       background-position: 0;
     }
     60% {
-      background-position: 600px;
+      background-position:900px;
     }
     100% {
       background-position: 600px;
     }
   }
   .text{
-    margin-top: -45vw;
+    margin-top: -60vw;
   }
   footer{
     margin-top: 100vw;
   }
   #banner{
     background-size: cover;
+  }
+  #banner-container{
+    width: 120%;
+    padding: 0vw;
+  }
+  @media(max-width:1267px){
+    .banner-text {
+      margin-left:22vw !important;
+    }
+  }
+  @media(max-width:1220px){
+    .banner-text{
+      margin-left:17vw !important;
+    }
+  }
+  @media(max-width:1108px){
+    .banner-text{
+      margin-left: 15vw !important;
+    }
+  }
+  @media(max-width:1043px){
+    .banner-text{
+      margin-left: 20vw !important;
+    }
+  }
+  @media(max-width:1036px){
+    .banner-text{
+      margin-left: 15vw !important;
+    }
+  }
+  @media(max-width:1016px){
+    .banner-text{
+      margin-left: 14vw !important;
+    }
+  }
+  @media(max-width:999px){
+    .banner-text{
+      margin-left: 13vw !important;
+    }
   }
