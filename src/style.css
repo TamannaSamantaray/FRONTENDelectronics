@@ -172,4 +172,12 @@ body{
 
     }
   }
+  @media(max-width:390px){
+    #banner-container{
+      width: 120%;
+      padding: 0vw;
+      margin-top: -10vw;
+    }
+   }
+  
  
