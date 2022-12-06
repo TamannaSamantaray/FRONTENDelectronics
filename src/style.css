@@ -112,7 +112,7 @@ body{
   #banner-container{
     width: 120%;
     padding: 0vw;
-    margin-top: -5vw;
+    margin-top: -6ssvw;
   }
   @media(max-width:1267px){
     .banner-text {
