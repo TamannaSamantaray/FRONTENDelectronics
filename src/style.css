@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Mukta+Malar:wght@500&family=Zilla+Slab:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 *{
     border: 0em;
     margin: 0em;
@@ -21,11 +21,11 @@ body{
     background:transparent;
     font-family: sans-serif !important;
 }
-.navbar{
-    background-color: black;
+#navigation_bar{
+    background-color: black !important;
 }
 #nav-links{
-    padding-left: 56vw;
+    padding-left: 45vw;
     text-align: right;
 }
 .navbar li{
@@ -38,9 +38,10 @@ body{
     padding: 3px 3px;
     text-decoration: none;
     color: white;
+    text-shadow: 0.2vw 0.3vw 0.2vw red;
 }
 .navbar li a:hover{
-    color:rgba(128, 128, 128, 0.944);
+    color:red;
     font-size: 1vw;
 }
 .nav-logo{
@@ -72,18 +73,20 @@ body{
 }
 }
 .banner-text {
-    color:black;
-    font-size: 50px;
+    color:rgb(12, 12, 12);
+    font-size: 55px;
     font-weight: bold;
-    font-family: 'Bungee Inline', cursive;
+    font-family: 'Zen Dots', cursive;
     /* letter-spacing: 7px; */
     cursor: pointer;
     text-transform: uppercase; 
-     margin-left: 25vw;
-
+    text-align: center;
+    margin-top: 21vw;
+    padding-right: 20vw;
+    text-shadow: 0vw 0.3vw 0.1vw black;
   }
   .banner-text {
-    background: linear-gradient(to right, rgb(0, 0, 0) 0, grey 10%, black 20%);
+    background: linear-gradient(to right, red 0, grey 10%, red 20%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shine 3s infinite linear;
@@ -108,6 +111,7 @@ body{
   }
   #banner{
     background-size: cover;
+    /* opacity: 0.8; */
   }
   #banner-container{
     width: 120%;
@@ -179,5 +183,25 @@ body{
       margin-top: -10vw;
     }
    }
-  
- 
+     /* .dropdown_menu{ 
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--color-black);
+   }
+   .dropdown_menu ul {
+    display: block;
+    margin: 10px;
+   }
+   .dropdown_menu ul li{
+    width: 150px;
+    padding: 10px;
+   } 
+    */
+    @media(max-width:1267px){
+      .banner-text{
+        margin-left: 2vw !important;
+        font-size: 4vw;
+      }
+    }
