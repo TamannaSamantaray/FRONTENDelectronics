@@ -82,7 +82,7 @@ body{
     text-transform: uppercase; 
     text-align: center;
     margin-top: 21vw;
-    padding-right: 20vw;
+    padding-right: 1vw;
     text-shadow: 0vw 0.3vw 0.1vw black;
   }
   .banner-text {
@@ -96,93 +96,24 @@ body{
     0% {
       background-position: 0;
     }
-    60% {
+    60%{
       background-position:900px;
     }
     100% {
       background-position: 600px;
     }
   }
-  .text{
-    margin-top: -60vw;
-  }
   footer{
     margin-top: 100vw;
   }
-  #banner{
-    background-size: cover;
-    /* opacity: 0.8; */
-  }
   #banner-container{
-    width: 120%;
+    height:70vw;
     padding: 0vw;
-    margin-top: -6vw;
+    background: url('croppedrawelectronicspicture.jpg');
+    position: relative;
+    background-size: cover;
+    overflow:hidden;
   }
-  @media(max-width:1267px){
-    .banner-text {
-      margin-left:22vw !important;
-    }
-  }
-  @media(max-width:1220px){
-    .banner-text{
-      margin-left:17vw !important;
-    }
-  }
-  @media(max-width:1108px){
-    .banner-text{
-      margin-left: 15vw !important;
-    }
-  }
-  @media(max-width:1043px){
-    .banner-text{
-      margin-left: 20vw !important;
-    }
-  }
-  @media(max-width:1059px){
-    .banner-text{
-      margin-left: 15vw !important;
-    }
-  }
-  @media(max-width:1045px){
-    .banner-text{
-      margin-left: 13vw !important;
-    }
-  }
-  @media(max-width:1006px){
-    .banner-text{
-      margin-left: 13vw !important;
-    }
-  }
-  @media(max-width:992px){
-    .banner-text{
-      margin-left: 12vw !important;
-    }
-  }
-  @media(max-width:957px){
-    .banner-text{
-      margin-left: 10vw !important;
-    }
-  }
-  @media(max-width:900px){
-    .banner-text{
-      margin-left: 20vw !important;
-      font-size: 4.5vw;
-    }
-  }
-  @media(max-width:700px){
-    .banner-text{
-      margin-left: 10vw !important;
-      font-size: 5vw;
-
-    }
-  }
-  @media(max-width:390px){
-    #banner-container{
-      width: 120%;
-      padding: 0vw;
-      margin-top: -10vw;
-    }
-   }
      /* .dropdown_menu{ 
     display: block;
     position: absolute;
@@ -291,3 +222,4 @@ body{
     #form-login-1:hover{
       color: #051937 ;
     }
+   
