@@ -271,6 +271,8 @@ body{
    #form-login-1{
       color: white;
       text-decoration: none;
+      font-size: 0.9vw;
+      font-weight: bold;
     }
     .form_horizontal .form-options{
       margin: 0;
@@ -285,4 +287,7 @@ body{
     }
     .form_horizontal .form-options li a i{
       font-size: 12px;
+    }
+    #form-login-1:hover{
+      color: #051937 ;
     }
