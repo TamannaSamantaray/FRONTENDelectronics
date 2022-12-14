@@ -222,4 +222,55 @@ body{
     #form-login-1:hover{
       color: #051937 ;
     }
+   /* captcha */
+   .contain{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   }
+    #capt{
+    width: 120px;
+    height: 45px;
+    font-size: 37px;
+    background-color: #051937;
+    padding: 5px;
+    border: none;
+    letter-spacing: 1px;
+    float: left;
+    color: red;
+    border-radius: 5px 0 0 5px;
+   } 
+   #refresh{
+    float: left;
+    background-color: #fff;
+    height: 45px;
+    border-radius: 0 5px 5px 0;
+   }
+   #refresh img{
+    margin-top: 20px;
+    cursor: pointer;
+   }
+    #textinput{
+    width: 120px;
+    height: 50px;
+    font-size: 37px;
+    background-color: #252521;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    color: #a8eb12;
+   } 
+   .contain button{
+    padding: 1vw;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-left: 2vw;
+    margin-top: -0.1vw;
+    background-color: #764d11;
+    color: #CED4F0;
+    transition: 0.5s;
+   }
    
