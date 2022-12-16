@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Mukta+Malar:wght@500&family=Zilla+Slab:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap');
 *{
     border: 0em;
     margin: 0em;
@@ -277,9 +278,29 @@ body{
  
     */ 
    #image{
-    height: 1vw;
-    width: 2vw;
-    background-color: #a8eb12;
-   }
+    /* height: 1vw; */
+    width: 6vw;
+    background-image: linear-gradient(to right top, #6dcddf, #01dcd6, #00e7b2, #5aec76, #a8eb12);
+    padding: 1VW !important;
+    text-align: center !important;
+    align-items: center;
+    font-size: 1.2vw;
+    border-radius: 0.5vw;
+    font-family: 'Arvo', serif;
    
+   }
+   #submit{
+   font-size: 1.2vw; 
+    border-radius: 1px;
+    width: 5.5vw;
+    height: 3vw;
+    align-items: center;
+    border-radius: 0.5vw;
+    background-image: linear-gradient(to right top, rgb(164, 87, 164),white);
+   }
+   #captcha-id{
+    font-size: 1.3vw;
+   }
+  
+  
    
