@@ -223,10 +223,11 @@ body{
       color: #051937 ;
     }
    /* captcha */
-   .contain{
+   /* .contain{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
+    height: 4vw;
    }
     #capt{
     width: 120px;
@@ -237,8 +238,8 @@ body{
     border: none;
     letter-spacing: 1px;
     float: left;
-    color: red;
-    border-radius: 5px 0 0 5px;
+    /* color: red; */
+    /* border-radius: 5px 0 0 5px;
    } 
    #refresh{
     float: left;
@@ -263,7 +264,7 @@ body{
    } 
    .contain button{
     padding: 1vw;
-    height: 30px;
+    height: 45px;
     cursor: pointer;
     border: none;
     border-radius: 5px;
@@ -273,4 +274,12 @@ body{
     color: #CED4F0;
     transition: 0.5s;
    }
+ 
+    */ 
+   #image{
+    height: 1vw;
+    width: 2vw;
+    background-color: #a8eb12;
+   }
+   
    

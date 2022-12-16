@@ -14,8 +14,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 </head>
-<body>
+<body onload="generate()">
   <div class="form_bg">
     <div class="container">
         <div class="row">
@@ -31,14 +32,61 @@
                     <span class="input-icon"><i class="fa fa-lock"></i></span>
                     <input class="form-control" type="password" name="" placeholder="password">
                 </div>
-                <div class="contain">
+                <!---------------------------CAPTCHA----------------------------------->
+                <div class="form-row">
+                  <div  class="col-lg-2" id="captcha-container">
+                      <div id="image" class="in_line p-2" selectable="False">
+                      </div>
+<!---------------------------CAPTCH ICON------------------------------->
+                       <div class="in_line" id="captcha-icon-id" onclick="generate()">
+                           <!-- <button class="captcha-icon"> -->
+                            <i class="fas fa-sync-alt mt-3" id="captcha-id"></i>
+                           <!-- </button> -->
+                       </div>
+<!-------------------------CAPTCH PLACEHOLDER----------------------------->                             
+                      <div id="user-input" class="in_line">
+                      <input type="text" placeholder="Captcha" id="submit" class="form-control my-2 p-2">
+                      </div>
+                      <p id="key"></p>
+                  </div> 
+              </div>
+                <!-- <div class="contain">
                   <input type="text" id="capt" readonly="readonly">
-                  <div id="refresh"><span class="material-symbols-outlined">refresh
+                  <div id="refresh"><button class="btn btn-primary" onclick="cap()"></button><span class="material-symbols-outlined">refresh
                   </span></div>
                   <input type="text" id="textinput">
-                  <button>Check</button>
-                </div>
-                <button class="btn signin">login</button>
+                  <button onclick="validcap()">Check</button>
+                </div> -->
+                <!-- <script type="text/javascript">
+                  function cap() {
+                    var alpha=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','1','2','3','4','5','6','7','8','9','0','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+
+                    var a=alpha[Math.floor(Math.random()*62)];
+                    var b=alpha[Math.floor(Math.random()*62)];
+                    var c=alpha[Math.floor(Math.random()*62)];
+                    var d=alpha[Math.floor(Math.random()*62)];
+                    var e=alpha[Math.floor(Math.random()*62)];
+                    var f=alpha[Math.floor(Math.random()*62)];
+
+                    var sum=a + b + c + d + e + f;
+
+                    document.getElementById("capt")+sum;
+                  }
+
+                  function validcap(){
+                    var string1 = document.getElementById('capt').value;
+                    var string2 = document.getElementById('textinput').value;
+                    if(string1 == string2){
+                      alert("Form is validated Successfully");
+                      return true;
+                    }
+                    else{
+                      alert("Please enter a valid captcha");
+                      return false;
+                    }
+                  }
+                </script> -->
+                <button class="btn signin" onclick="printmsg()">login</button>
                  <ul class="form-options">
                     <li><a href="#" id="form-login-1">Forgot password?</a></li>
                     <li><a href="#" id="form-login-1">Create New Account<i class="fa fa-arrow-right"></i></a></li>
