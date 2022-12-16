@@ -301,6 +301,8 @@ body{
    #captcha-id{
     font-size: 1.3vw;
     margin-left: 6vw;
+    margin-top: -20vw;
+    position: absolute;
    }
   
   
