@@ -304,6 +304,55 @@ body{
     margin-top: -20vw;
     position: absolute;
    }
-  
-  
-   
+   /* signup form */
+
+  .signup-bg{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background-image: linear-gradient(to right top, #4bebf9, #80f0f0, #a5f4ec, #c4f8eb, #dffbf0, #defbef, #dcfaef, #dbfaee, #bdf6e9, #99f1ea, #6cecef, #0ae6f9);
+    align-items: center;
+    padding: 10px;
+  }
+  .container{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+  }
+  .container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+  }
+  .container .title::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    background: #00e7b2;
+  }
+  .container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+   form .user-details .input-box{
+    margin: 20px 0 12px 0;
+    width: calc(100% / 2 - 20px);
+   }
+   .user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+   }
+   .user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border:#051937
+    padding-left: 15px;
+    font-size: 16px;
+   }
