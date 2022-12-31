@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Mukta+Malar:wght@500&family=Zilla+Slab:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 *{
     border: 0em;
     margin: 0em;
@@ -201,7 +202,7 @@ body{
       text-transform: uppercase;
     }
    #form-login-1{
-      color: white;
+      color: #051937 ;
       text-decoration: none;
       font-size: 0.9vw;
       font-weight: bold;
@@ -222,6 +223,7 @@ body{
     }
     #form-login-1:hover{
       color: #051937 ;
+      font-size: 1vw;
     }
    /* captcha */
    /* .contain{
@@ -322,9 +324,10 @@ body{
     border-radius: 5px;
   }
   .container .title{
-    font-size: 25px;
+    font-size: 3vw;
     font-weight: 500;
     position: relative;
+    font-family: 'Yeseva One', cursive;;
   }
   .container .title::before{
     content: '';
@@ -337,6 +340,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    font-size: 1vw;
   }
    form .user-details .input-box{
     margin: 20px 0 12px 0;
@@ -356,3 +360,15 @@ body{
     padding-left: 15px;
     font-size: 16px;
    }
+   #form-login-2{
+    color: black;
+    font-size: 1vw;
+  }
+  #form-login-2:hover{
+    color: black;
+    font-size: 1.1vw;
+  }
+  #sign-up{
+    font-size: 1.2vw;
+  }
+ 
