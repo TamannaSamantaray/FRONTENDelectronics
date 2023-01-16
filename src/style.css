@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 *{
     border: 0em;
     margin: 0em;
@@ -40,7 +41,7 @@ body{
     padding: 3px 3px;
     text-decoration: none;
     color: white;
-    text-shadow: 0.2vw 0.3vw 0.2vw red;
+    text-shadow: 0.1vw 0.1vw 0.1vw red;
 }
 .navbar li a:hover{
     color:red;
@@ -380,4 +381,11 @@ body{
  } */
  #form-box{
   box-shadow:  0.2vw 0.1vw 0.3vw 0vw #001fe7;
+ }
+ .about{
+  margin-left: 40vw;
+  font-size: 3vw;
+  font-weight: bold;
+  font-family: 'Audiowide', cursive;
+  text-shadow: 0.1vw 0.2vw 0.2vw yellow;
  }
