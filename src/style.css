@@ -370,5 +370,14 @@ body{
   }
   #sign-up{
     font-size: 1.2vw;
+    border-radius: 3vw;
+    box-shadow:  0.1vw 0.1vw 0.1vw 0.1vw #17cccc;
+    background-color: #051937;
+    
   }
- 
+ /* .input-box input{
+  border: 1px solid black;
+ } */
+ #form-box{
+  box-shadow:  0.2vw 0.1vw 0.3vw 0vw #001fe7;
+ }
