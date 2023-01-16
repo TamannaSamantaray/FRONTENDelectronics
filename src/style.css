@@ -396,11 +396,12 @@ body{
   width: 15vw;
  } */
  #subject1{
-  background-color: #d0e700;
+  background-color:#d0e700 ;
   height: 15vw;
   width: 20vw;
   margin-top: 20vw;
   margin-left: 20vw;
+  border-radius: 2vw;
  
  }
 
@@ -410,6 +411,7 @@ body{
   width: 20vw;
   margin-top: 20vw;
   margin-left: 20vw;
+  border-radius: 2vw;
  
  }
  #subject3{
@@ -419,4 +421,5 @@ body{
   margin-top: 20vw;
   margin-left: 20vw;
   margin-bottom: 10vw;
+  border-radius: 2vw;
  }
