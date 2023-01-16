@@ -389,3 +389,34 @@ body{
   font-family: 'Audiowide', cursive;
   text-shadow: 0.1vw 0.2vw 0.2vw yellow;
  }
+ /* #subjects{
+  background-color: #f9950a;
+  border-radius: 1vw;
+  height: 16vw;
+  width: 15vw;
+ } */
+ #subject1{
+  background-color: #d0e700;
+  height: 15vw;
+  width: 20vw;
+  margin-top: 20vw;
+  margin-left: 20vw;
+ 
+ }
+
+ #subject2{
+  background-color: #d0e700;
+  height: 15vw;
+  width: 20vw;
+  margin-top: 20vw;
+  margin-left: 20vw;
+ 
+ }
+ #subject3{
+  background-color: #d0e700;
+  height: 15vw;
+  width: 20vw;
+  margin-top: 20vw;
+  margin-left: 20vw;
+  margin-bottom: 10vw;
+ }
