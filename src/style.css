@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
 *{
     border: 0em;
     margin: 0em;
@@ -408,7 +409,6 @@ body{
   margin-right: 4vw;
   border-radius: 2vw;
   box-shadow: 0.5vw 0.6vw 0.6vw  #050505;
- 
  }
 
  #subject2{
@@ -425,23 +425,26 @@ body{
   height: 15vw;
   width: 20vw;
   margin-top: 20vw;
-  margin-right: 8vw;
+  /* margin-right: 8vw; */
   margin-bottom: 10vw;
   border-radius: 2vw;
   box-shadow: 0.5vw 0.6vw 0.6vw  #050505;
  }
  .subjects{
   display: flex;
-  
   font-size: 2vw;
   font-family: 'Russo One', sans-serif;
   overflow-y: hidden;
+  justify-content: center;
  }
  .class{
   text-decoration: none;
   color: #050505;
-
  }
  .class:hover{
   color: #050505;
+ }
+ .write{
+  font-size: 1vw;
+  font-family: 'Crimson Text', serif;
  }
