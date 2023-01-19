@@ -19,12 +19,15 @@ html, body{
     height:100%;
     margin:0;
     padding:0;
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
 }
 body{
     /* background: rgb(15, 14, 14) !important; */
     background:transparent;
     font-family: sans-serif !important;
+}
+::-webkit-scrollbar{
+  width:0;
 }
 #navigation_bar{
     background-color: black !important;
@@ -79,7 +82,8 @@ body{
 }
 .banner-text {
     color:rgb(12, 12, 12);
-    font-size: 55px;
+   
+    font-size: 4vw;
     font-weight: bold;
     font-family: 'Zen Dots', cursive;
     /* letter-spacing: 7px; */
@@ -88,10 +92,10 @@ body{
     text-align: center;
     margin-top: 21vw;
     padding-right: 1vw;
-    text-shadow: 0vw 0.3vw 0.1vw black;
+    text-shadow: 0vw 0.3vw 0.1vw rgb(12, 12, 12);
   }
   .banner-text {
-    background: linear-gradient(to right, red 0, grey 10%, red 20%);
+    background: linear-gradient(to right, rgb(201, 15, 15) 0, grey 10%,   rgb(201, 15, 15) 0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shine 3s infinite linear;
@@ -115,6 +119,8 @@ body{
     height:70vw;
     padding: 0vw;
     background: url('croppedrawelectronicspicture.jpg');
+    /* opacity: -50px; */
+    /* background: url('editedelectronicspicture.jpg'); */
     position: relative;
     background-size: cover;
     overflow:hidden;
@@ -385,11 +391,11 @@ body{
   box-shadow:  0.2vw 0.1vw 0.3vw 0vw #001fe7;
  }
  .about{
-  margin-left: 40vw;
   font-size: 3vw;
   font-weight: bold;
   font-family: 'Audiowide', cursive;
   text-shadow: 0.1vw 0.2vw 0.2vw yellow;
+  text-align: center;
  }
  /* #subjects{
   background-color: #f9950a;
@@ -463,4 +469,10 @@ body{
  .write{
   font-size: 1vw;
   font-family: 'Crimson Text', serif;
+ }
+ .text-black{
+  text-decoration: none;
+ }
+ #footer-contain{
+  background:grey;
  }
