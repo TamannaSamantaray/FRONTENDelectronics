@@ -410,6 +410,11 @@ body{
   border-radius: 2vw;
   box-shadow: 0.5vw 0.6vw 0.6vw  #050505;
  }
+ #subject1:hover{
+  width: 22vw;
+  height: 16vw;
+  background-image: linear-gradient(to bottom, #f1f3da, #f0f6b3, #eefa8b, #eafc5c, #e5ff00);
+ }
 
  #subject2{
   background-color: yellow;
@@ -420,6 +425,11 @@ body{
   border-radius: 2vw;
   box-shadow: 0.5vw 0.6vw 0.6vw  #050505;
  }
+ #subject2:hover{
+  width: 22vw;
+  height: 16vw;
+  background-image: linear-gradient(to bottom, #f1f3da, #f0f6b3, #eefa8b, #eafc5c, #e5ff00);
+ }
  #subject3{
   background-color: yellow;
   height: 15vw;
@@ -429,6 +439,12 @@ body{
   margin-bottom: 10vw;
   border-radius: 2vw;
   box-shadow: 0.5vw 0.6vw 0.6vw  #050505;
+ }
+ #subject3:hover{
+  width: 22vw;
+  height: 16vw;
+  background-image: linear-gradient(to bottom, #f1f3da, #f0f6b3, #eefa8b, #eafc5c, #e5ff00);
+
  }
  .subjects{
   display: flex;
