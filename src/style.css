@@ -480,30 +480,64 @@ body{
   text-decoration: none;
  }
  #footer-contain{
-  background:rgb(195, 154, 236);
+  /* background:rgb(195, 154, 236); */
   /* background:rgb(202, 196, 196); */
+  /* background-image: linear-gradient(to bottom, #f6f6f6, #cbc0fa, #9f8af9, #6f53f4, #2600eb); */
+  /* background: #29e0d7; */
+  /* background: #BBFFFC; */
+  background: black;
  }
  #college-name{
   font-size: 1vw;
   font-family: 'Days One', sans-serif;
+  color: white;
+ }
+ #college-name:hover{
+  color: rgb(255, 170, 0);
+ }
+ #college-namehr{
+  font-size: 1vw;
+  font-family: 'Days One', sans-serif;
+  color: white;
  }
  #footer-text{
   font-family: 'Exo 2', sans-serif;
   font-size: 1.5VW;
+  color: rgba(191, 184, 184, 0.823);
   /* text-shadow: 0vw 0.1vw 0.1vw rgb(218, 248, 65); */
  }
  #admin-email{
   font-family: 'Kanit', sans-serif;
   font-size: 1.2vw;
+  color: white;
+ }
+ #admin-email:hover{
+  color: rgb(255, 170, 0);
  }
  #subfoot-text{
   font-family: 'Saira', sans-serif;
+  color: white;
+  text-decoration: none;
+ }
+ #subfoot-text:hover{
+  color: rgb(255, 170, 0);
  }
  #copy{
   font-family: 'DM Serif Display', serif;
+  color: white;
  }
 #develop{
   font-family: 'Gelasio', serif;
+  color: white;
+}
+#number{
+  color: white;
+}
+#number:hover{
+  color: rgb(255, 170, 0);
+}
+#line{
+  color: white;
 }
 
  
