@@ -480,8 +480,8 @@ body{
   text-decoration: none;
  }
  #footer-contain{
-  /* background:rgb(195, 154, 236); */
-  background:rgb(202, 196, 196);
+  background:rgb(195, 154, 236);
+  /* background:rgb(202, 196, 196); */
  }
  #college-name{
   font-size: 1vw;
@@ -490,7 +490,7 @@ body{
  #footer-text{
   font-family: 'Exo 2', sans-serif;
   font-size: 1.5VW;
-  text-shadow: 0vw 0.1vw 0.1vw rgb(218, 248, 65);
+  /* text-shadow: 0vw 0.1vw 0.1vw rgb(218, 248, 65); */
  }
  #admin-email{
   font-family: 'Kanit', sans-serif;
