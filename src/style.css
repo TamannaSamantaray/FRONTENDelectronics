@@ -480,8 +480,8 @@ body{
   text-decoration: none;
  }
  #footer-contain{
-  background:rgb(195, 154, 236);
-  /* background:rgb(202, 196, 196); */
+  /* background:rgb(195, 154, 236); */
+  background:rgb(202, 196, 196);
  }
  #college-name{
   font-size: 1vw;
