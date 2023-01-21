@@ -719,7 +719,52 @@ body{
   #Elab{
     text-align: center;
     font-family: 'DM Serif Display', serif;
+    font-size: 4.2vw;
+  }
+}
+@media(max-width:426px){
+  #List-ex{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Mukta', sans-serif;
+    font-size: 3.4vw;
+  }
+}
+@media(max-width:426px){
+  #Elab{
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 4.7vw;
+  }
+}
+@media(max-width:395px){
+  #List-ex{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Mukta', sans-serif;
+    font-size: 3.7vw;
+  }
+}
+@media(max-width:395px){
+  #Elab{
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 5vw;
+  }
+}
+@media(max-width:333px){
+  #List-ex{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Mukta', sans-serif;
     font-size: 3.9vw;
+  }
+}
+@media(max-width:333px){
+  #Elab{
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 5vw;
   }
 }
 
