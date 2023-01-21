@@ -11,6 +11,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 *{
     border: 0em;
     margin: 0em;
@@ -539,5 +540,14 @@ body{
 #line{
   color: white;
 }
+.BasicBody{
+  background-image: linear-gradient(to right top, #43433d, #5f5f59, #7c7d76, #9a9c94, #babcb4, #bbbdb5, #bdbeb7, #bebfb8, #a1a19b, #85847f, #696864, #4f4e4b);
+}
+#Elab{
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  font-size: 3vw;
+}
+
 
  
