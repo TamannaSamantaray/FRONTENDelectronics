@@ -12,6 +12,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
 *{
     border: 0em;
     margin: 0em;
@@ -548,6 +549,14 @@ body{
   font-family: 'DM Serif Display', serif;
   font-size: 3vw;
 }
+#List-ex{
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Mukta', sans-serif;
+  font-size: 1.5vw;
+}
+
+
 
 
  
