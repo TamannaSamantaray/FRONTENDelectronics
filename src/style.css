@@ -555,6 +555,181 @@ body{
   font-family: 'Mukta', sans-serif;
   font-size: 1.5vw;
 }
+@media(max-width:1263px){
+  #List-ex{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.5vw;
+  }
+}
+@media(max-width:1050px){
+  #List-ex{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.8vw;
+  }
+}
+
+@media(max-width:996px){
+  #List-ex{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.9vw;
+  }
+}
+
+@media(max-width:886px){
+  #List-ex{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Mukta', sans-serif;
+    font-size: 2vw;
+  }
+}
+@media(max-width:800px){
+  #List-ex{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Mukta', sans-serif;
+    font-size: 2.1vw;
+  }
+}
+@media(max-width:784px){
+  #List-ex{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Mukta', sans-serif;
+    font-size: 2.2vw;
+  }
+}
+@media(max-width:729px){
+  #List-ex{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Mukta', sans-serif;
+    font-size: 2.4vw;
+  }
+}
+@media(max-width:668px){
+  #List-ex{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Mukta', sans-serif;
+    font-size: 2.5vw;
+  }
+}
+@media(max-width:635px){
+  #List-ex{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Mukta', sans-serif;
+    font-size: 2.6vw;
+  }
+}
+
+@media(max-width:635px){
+  #Elab{
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3.5vw;
+  }
+}
+@media(max-width:633px){
+  #List-ex{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Mukta', sans-serif;
+    font-size: 2.7vw;
+  }
+}
+@media(max-width:595px){
+  #List-ex{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Mukta', sans-serif;
+    font-size: 2.8vw;
+  }
+}
+
+@media(max-width:573px){
+  #List-ex{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Mukta', sans-serif;
+    font-size: 2.9vw;
+  }
+}
+@media(max-width:574px){
+  #Elab{
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3.6vw;
+  }
+}
+@media(max-width:574px){
+  #List-ex{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Mukta', sans-serif;
+    font-size: 3vw;
+  }
+}
+@media(max-width:532px){
+  #List-ex{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Mukta', sans-serif;
+    font-size: 3.1vw;
+  }
+}
+@media(max-width:532px){
+  #Elab{
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3.7vw;
+  }
+}
+@media(max-width:510px){
+  #List-ex{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Mukta', sans-serif;
+    font-size: 3.2vw;
+  }
+}
+@media(max-width:510px){
+  #Elab{
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3.8vw;
+  }
+}
+@media(max-width:500px){
+  #List-ex{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Mukta', sans-serif;
+    font-size: 3.3vw;
+  }
+}
+@media(max-width:500px){
+  #Elab{
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3.9vw;
+  }
+}
+
+
+
+
+
+
+
+
 
 
 
