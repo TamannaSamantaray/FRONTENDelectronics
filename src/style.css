@@ -494,6 +494,97 @@ body{
   font-family: 'Days One', sans-serif;
   color: white;
  }
+ @media(max-width:1203px){
+  #college-name{
+    font-size: 1.2vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:1024px){
+  #college-name{
+    font-size: 1.3vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:886px){
+  #college-name{
+    font-size: 1.5vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:754px){
+  #college-name{
+    font-size: 1.7vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:718px){
+  #college-name{
+    font-size: 1.8vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:640px){
+  #college-name{
+    font-size: 2vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:621px){
+  #college-name{
+    font-size: 2.2vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:563px){
+  #college-name{
+    font-size: 2.4vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:517px){
+  #college-name{
+    font-size: 2.6vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:471px){
+  #college-name{
+    font-size: 2.8vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:403px){
+  #college-name{
+    font-size: 3.1vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:344px){
+  #college-name{
+    font-size: 3.3vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:277px){
+  #college-name{
+    font-size: 3.8vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
  #college-name:hover{
   color: rgb(255, 170, 0);
  }
@@ -502,17 +593,336 @@ body{
   font-family: 'Days One', sans-serif;
   color: white;
  }
+ @media(max-width:1203px){
+  #college-namehr{
+    font-size: 1.2vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:1024px){
+  #college-namehr{
+    font-size: 1.3vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:886px){
+  #college-namehr{
+    font-size: 1.5vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:754px){
+  #college-namehr{
+    font-size: 1.7vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:718px){
+  #college-namehr{
+    font-size: 1.8vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:640px){
+  #college-namehr{
+    font-size: 2vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:621px){
+  #college-namehr{
+    font-size: 2.2vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:563px){
+  #college-namehr{
+    font-size: 2.4vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:517px){
+  #college-namehr{
+    font-size: 2.6vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:471px){
+  #college-namehr{
+    font-size: 2.8vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:403px){
+  #college-namehr{
+    font-size: 3.1vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:344px){
+  #college-namehr{
+    font-size: 3.3vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
+@media(max-width:277px){
+  #college-namehr{
+    font-size: 3.8vw;
+    font-family: 'Days One', sans-serif;
+    color: white;
+   }
+}
  #footer-text{
   font-family: 'Exo 2', sans-serif;
-  font-size: 1.5VW;
+  font-size: 1.5vw;
   color: rgba(191, 184, 184, 0.823);
   /* text-shadow: 0vw 0.1vw 0.1vw rgb(218, 248, 65); */
  }
+ @media(max-width:1320px){
+  #footer-text{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.6vw;
+    color: rgba(191, 184, 184, 0.823);
+    /* text-shadow: 0vw 0.1vw 0.1vw rgb(218, 248, 65); */
+   }
+}
+@media(max-width:1060px){
+  #footer-text{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.7vw;
+    color: rgba(191, 184, 184, 0.823);
+    /* text-shadow: 0vw 0.1vw 0.1vw rgb(218, 248, 65); */
+   }
+}
+@media(max-width:1024px){
+  #footer-text{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 2vw;
+    color: rgba(191, 184, 184, 0.823);
+    /* text-shadow: 0vw 0.1vw 0.1vw rgb(218, 248, 65); */
+   }
+}
+@media(max-width:886px){
+  #footer-text{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 2.1vw;
+    color: rgba(191, 184, 184, 0.823);
+    /* text-shadow: 0vw 0.1vw 0.1vw rgb(218, 248, 65); */
+   }
+}
+@media(max-width:781px){
+  #footer-text{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 2.4vw;
+    color: rgba(191, 184, 184, 0.823);
+    /* text-shadow: 0vw 0.1vw 0.1vw rgb(218, 248, 65); */
+   }
+}
+@media(max-width:732px){
+  #footer-text{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 2.6vw;
+    color: rgba(191, 184, 184, 0.823);
+    /* text-shadow: 0vw 0.1vw 0.1vw rgb(218, 248, 65); */
+   }
+}
+@media(max-width:718px){
+  #footer-text{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 2.8vw;
+    color: rgba(191, 184, 184, 0.823);
+    /* text-shadow: 0vw 0.1vw 0.1vw rgb(218, 248, 65); */
+   }
+}
+@media(max-width:690px){
+  #footer-text{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 3vw;
+    color: rgba(191, 184, 184, 0.823);
+    /* text-shadow: 0vw 0.1vw 0.1vw rgb(218, 248, 65); */
+   }
+}
+@media(max-width:621px){
+  #footer-text{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 3.2vw;
+    color: rgba(191, 184, 184, 0.823);
+    /* text-shadow: 0vw 0.1vw 0.1vw rgb(218, 248, 65); */
+   }
+}
+@media(max-width:584px){
+  #footer-text{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 3.5vw;
+    color: rgba(191, 184, 184, 0.823);
+    /* text-shadow: 0vw 0.1vw 0.1vw rgb(218, 248, 65); */
+   }
+}
+@media(max-width:535px){
+  #footer-text{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 3.7vw;
+    color: rgba(191, 184, 184, 0.823);
+    /* text-shadow: 0vw 0.1vw 0.1vw rgb(218, 248, 65); */
+   }
+}
+@media(max-width:517px){
+  #footer-text{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 3.9vw;
+    color: rgba(191, 184, 184, 0.823);
+    /* text-shadow: 0vw 0.1vw 0.1vw rgb(218, 248, 65); */
+   }
+}
+@media(max-width:472px){
+  #footer-text{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 4.2vw;
+    color: rgba(191, 184, 184, 0.823);
+    /* text-shadow: 0vw 0.1vw 0.1vw rgb(218, 248, 65); */
+   }
+}
+@media(max-width:408px){
+  #footer-text{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 5vw;
+    color: rgba(191, 184, 184, 0.823);
+    /* text-shadow: 0vw 0.1vw 0.1vw rgb(218, 248, 65); */
+   }
+}
+@media(max-width:355px){
+  #footer-text{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 5.2vw;
+    color: rgba(191, 184, 184, 0.823);
+    /* text-shadow: 0vw 0.1vw 0.1vw rgb(218, 248, 65); */
+   }
+}
+@media(max-width:344px){
+  #footer-text{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 5.4vw;
+    color: rgba(191, 184, 184, 0.823);
+    /* text-shadow: 0vw 0.1vw 0.1vw rgb(218, 248, 65); */
+   }
+}
+@media(max-width:309px){
+  #footer-text{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 5.6vw;
+    color: rgba(191, 184, 184, 0.823);
+    /* text-shadow: 0vw 0.1vw 0.1vw rgb(218, 248, 65); */
+   }
+}
  #admin-email{
   font-family: 'Kanit', sans-serif;
   font-size: 1.2vw;
   color: white;
  }
+ @media(max-width:1061px){
+  #admin-email{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.4vw;
+    color: white;
+   }
+  } 
+  @media(max-width:886px){
+    #admin-email{
+      font-family: 'Kanit', sans-serif;
+      font-size: 1.5vw;
+      color: white;
+     }
+    } 
+    @media(max-width:825px){
+      #admin-email{
+        font-family: 'Kanit', sans-serif;
+        font-size: 1.6vw;
+        color: white;
+       }
+      } 
+      
+      @media(max-width:754px){
+        #admin-email{
+          font-family: 'Kanit', sans-serif;
+          font-size: 1.8vw;
+          color: white;
+         }
+        } 
+        @media(max-width:690px){
+          #admin-email{
+            font-family: 'Kanit', sans-serif;
+            font-size: 2vw;
+            color: white;
+           }
+          } 
+          @media(max-width:621px){
+            #admin-email{
+              font-family: 'Kanit', sans-serif;
+              font-size: 2.2vw;
+              color: white;
+             }
+            } 
+            @media(max-width:563px){
+              #admin-email{
+                font-family: 'Kanit', sans-serif;
+                font-size: 2.4vw;
+                color: white;
+               }
+              }    
+              @media(max-width:517px){
+                #admin-email{
+                  font-family: 'Kanit', sans-serif;
+                  font-size: 2.6vw;
+                  color: white;
+                 }
+                }  
+                @media(max-width:471px){
+                  #admin-email{
+                    font-family: 'Kanit', sans-serif;
+                    font-size: 2.9vw;
+                    color: white;
+                   }
+                  } 
+                  @media(max-width:453px){
+                    #admin-email{
+                      font-family: 'Kanit', sans-serif;
+                      font-size: 3.1vw;
+                      color: white;
+                     }
+                    }
+                    @media(max-width:395px){
+                      #admin-email{
+                        font-family: 'Kanit', sans-serif;
+                        font-size: 3.3vw;
+                        color: white;
+                       }
+                      } 
+                      @media(max-width:309px){
+                        #admin-email{
+                          font-family: 'Kanit', sans-serif;
+                          font-size: 3.5vw;
+                          color: white;
+                         }
+                        }   
+                        @media(max-width:277px){
+                          #admin-email{
+                            font-family: 'Kanit', sans-serif;
+                            font-size: 3.7vw;
+                            color: white;
+                           }
+                          }        
  #admin-email:hover{
   color: rgb(255, 170, 0);
  }
