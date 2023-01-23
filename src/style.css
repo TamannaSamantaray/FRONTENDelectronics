@@ -405,6 +405,51 @@ body{
   text-shadow: 0.1vw 0.2vw 0.2vw yellow;
   text-align: center;
  }
+ @media(max-width:805px){
+  .about{
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: 'Audiowide', cursive;
+    text-shadow: 0.1vw 0.2vw 0.2vw yellow;
+    text-align: center;
+   }
+}
+@media(max-width:741px){
+  .about{
+    font-size: 3.8vw;
+    font-weight: bold;
+    font-family: 'Audiowide', cursive;
+    text-shadow: 0.1vw 0.2vw 0.2vw yellow;
+    text-align: center;
+   }
+}
+@media(max-width:679px){
+  .about{
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: 'Audiowide', cursive;
+    text-shadow: 0.1vw 0.2vw 0.2vw yellow;
+    text-align: center;
+  }
+}
+@media(max-width:596px){
+  .about{
+    font-size: 4.7vw;
+    font-weight: bold;
+    font-family: 'Audiowide', cursive;
+    text-shadow: 0.1vw 0.2vw 0.2vw yellow;
+    text-align: center;
+  }
+}  
+@media(max-width:498px){
+  .about{
+    font-size: 5.1vw;
+    font-weight: bold;
+    font-family: 'Audiowide', cursive;
+    text-shadow: 0.1vw 0.2vw 0.2vw yellow;
+    text-align: center;
+  }
+}  
  /* #subjects{
   background-color: #f9950a;
   border-radius: 1vw;
@@ -417,37 +462,37 @@ body{
  }
  #subject1{
   background-color:yellow;
-  height: 15vw;
-  width: 20vw;
+  height: 20vw;
+  width: 23vw;
   margin-top: 20vw;
   margin-right: 4vw;
   border-radius: 2vw;
   box-shadow: 0.5vw 0.6vw 0.6vw  #050505;
  }
  #subject1:hover{
-  width: 22vw;
-  height: 16vw;
+  width: 24vw;
+  height: 21vw;
   background-image: linear-gradient(to bottom, #f1f3da, #f0f6b3, #eefa8b, #eafc5c, #e5ff00);
  }
 
  #subject2{
   background-color: yellow;
-  height: 15vw;
-  width: 20vw;
+  height: 20vw;
+  width: 23vw;
   margin-top: 20vw;
   margin-right: 5vw;
   border-radius: 2vw;
   box-shadow: 0.5vw 0.6vw 0.6vw  #050505;
  }
  #subject2:hover{
-  width: 22vw;
-  height: 16vw;
+  width: 24vw;
+  height: 21vw;
   background-image: linear-gradient(to bottom, #f1f3da, #f0f6b3, #eefa8b, #eafc5c, #e5ff00);
  }
  #subject3{
   background-color: yellow;
-  height: 15vw;
-  width: 20vw;
+  height: 20vw;
+  width: 23vw;
   margin-top: 20vw;
   /* margin-right: 8vw; */
   margin-bottom: 10vw;
@@ -455,8 +500,8 @@ body{
   box-shadow: 0.5vw 0.6vw 0.6vw  #050505;
  }
  #subject3:hover{
-  width: 22vw;
-  height: 16vw;
+  width: 24vw;
+  height: 21vw;
   background-image: linear-gradient(to bottom, #f1f3da, #f0f6b3, #eefa8b, #eafc5c, #e5ff00);
 
  }
@@ -1177,6 +1222,9 @@ body{
     font-size: 5vw;
   }
 }
+/* #ex-boxEV{
+  /* border-color: #050505; */
+} */
 
 
 
