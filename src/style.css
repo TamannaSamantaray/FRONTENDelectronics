@@ -13,6 +13,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
 *{
     border: 0em;
     margin: 0em;
@@ -44,12 +45,21 @@ body{
     padding-left: 45vw;
     text-align: right;
 }
+#nav-links1{
+  padding-left: 70vw;
+  text-align: right;
+}
 @media(max-width:991.5px){
   #nav-links{
     padding-left: 1vw !important;
     float:left;
     text-align: left !important;
-}
+  }
+  #nav-links1{
+    padding-left: 1vw !important;
+    float:left;
+    text-align: left !important;
+  }
 }
 .navbar li{
     float: left;
@@ -1009,19 +1019,24 @@ body{
 }
 .BasicBody{
   background: linear-gradient(to right top, #43433d, #5f5f59, #7c7d76, #9a9c94, #babcb4, #bbbdb5, #bdbeb7, #bebfb8, #a1a19b, #85847f, #696864, #4f4e4b);
+  background: no-repeat;
 }
 #Elab{
-  text-align: center;
+  /* text-align: center; */
   font-family: 'DM Serif Display', serif;
-  font-size: 3vw;
+  /* font-size: 3.3vw; */
 }
 #List-ex{
-  text-align: center;
+  /* text-align: center; */
   text-decoration: underline;
   font-family: 'Mukta', sans-serif;
-  font-size: 1.5vw;
+  /* font-size: 2vw; */
 }
-@media(max-width:1263px){
+#Elab,#List-ex,#ex-boxEV{
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+/* @media(max-width:1263px){
   #List-ex{
     text-align: center;
     text-decoration: underline;
@@ -1232,14 +1247,11 @@ body{
     font-family: 'DM Serif Display', serif;
     font-size: 5vw;
   }
-}
- #ex-boxEV{
-   border:0.2vw solid #050505;
-   background: transparent; 
-   height: 30vw;
-   width: 35vw;
-   margin-top: 2vw;
-   box-shadow: 0.2vw 0.1vw 0.2vw #050505;
+} */
+.expt-list{
+  text-decoration: none;
+  color: #050505;
+  font-family: 'Josefin Sans', sans-serif;
 } 
 
 
