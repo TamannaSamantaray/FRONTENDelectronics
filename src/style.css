@@ -44,6 +44,13 @@ body{
     padding-left: 45vw;
     text-align: right;
 }
+@media(max-width:991.5px){
+  #nav-links{
+    padding-left: 1vw !important;
+    float:left;
+    text-align: left !important;
+}
+}
 .navbar li{
     float: left;
     list-style: none;
@@ -241,6 +248,10 @@ body{
     #form-login-1:hover{
       color: #051937 ;
       font-size: 1vw;
+    }
+    #email-box{
+      border:0.2vw solid #051937;
+      border-radius: 1vw;
     }
    /* captcha */
    /* .contain{
@@ -458,7 +469,7 @@ body{
  } */
 
  .sub-body{
-  background-image: linear-gradient(to bottom, #050505, #323538, #5c6768, #8e9d96, #cfd4c3);
+  background: linear-gradient(to bottom, #050505, #323538, #5c6768, #8e9d96, #cfd4c3);
  }
  #subject1{
   background-color:yellow;
@@ -997,7 +1008,7 @@ body{
   color: white;
 }
 .BasicBody{
-  background-image: linear-gradient(to right top, #43433d, #5f5f59, #7c7d76, #9a9c94, #babcb4, #bbbdb5, #bdbeb7, #bebfb8, #a1a19b, #85847f, #696864, #4f4e4b);
+  background: linear-gradient(to right top, #43433d, #5f5f59, #7c7d76, #9a9c94, #babcb4, #bbbdb5, #bdbeb7, #bebfb8, #a1a19b, #85847f, #696864, #4f4e4b);
 }
 #Elab{
   text-align: center;
@@ -1222,9 +1233,14 @@ body{
     font-size: 5vw;
   }
 }
-/* #ex-boxEV{
-  /* border-color: #050505; */
-} */
+ #ex-boxEV{
+   border:0.2vw solid #050505;
+   background: transparent; 
+   height: 30vw;
+   width: 35vw;
+   margin-top: 2vw;
+   box-shadow: 0.2vw 0.1vw 0.2vw #050505;
+} 
 
 
 
