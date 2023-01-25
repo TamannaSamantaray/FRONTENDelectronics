@@ -137,9 +137,13 @@ body{
       background-position: 600px;
     }
   }
-  footer{
+  /* footer{
     margin-top: 100vw;
-  }
+  } */
+  /* #footer-contain{ */
+   /* margin-top: 100vw; */
+  /* } */
+
   #banner-container{
     height:70vw;
     padding: 0vw;
@@ -479,7 +483,8 @@ body{
  } */
 
  .sub-body{
-  background: linear-gradient(to bottom, #050505, #323538, #5c6768, #8e9d96, #cfd4c3);
+  /* background: linear-gradient(to bottom, #050505, #323538, #5c6768, #8e9d96, #cfd4c3); */
+  background: rgb(196, 193, 193);
  }
  #subject1{
   background-color:yellow;
@@ -1253,9 +1258,13 @@ body{
   color: #050505;
   font-family: 'Josefin Sans', sans-serif;
 } 
+/* BtnsEX{
+  
+} */
 
-
-
+/* #btnBox{
+ background-color: red;
+} */
 
 
 
