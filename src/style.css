@@ -1258,19 +1258,18 @@ body{
   color: #050505;
   font-family: 'Josefin Sans', sans-serif;
 } 
-/* BtnsEX{
-  
-} */
-
-/* #btnBox{
- background-color: red;
-} */
-#BtnEX{
-  background: rgb(129, 224, 207);
-  color: black;
-}
-
-
+ #btnhead{
+  /* align-items: center; */
+ /* justify-content: center; */
+ text-align: center;
+ }
+ #exhead1{
+  text-align: center;
+ }
+ #head2Ex{
+  text-align: center;
+ }
+ 
 
 
 
