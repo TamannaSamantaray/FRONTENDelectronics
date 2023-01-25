@@ -1265,6 +1265,11 @@ body{
 /* #btnBox{
  background-color: red;
 } */
+#BtnEX{
+  background: rgb(129, 224, 207);
+  color: black;
+}
+
 
 
 
