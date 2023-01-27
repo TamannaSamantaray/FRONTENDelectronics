@@ -14,6 +14,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
 *{
     border: 0em;
     margin: 0em;
@@ -1262,13 +1264,24 @@ body{
   /* align-items: center; */
  /* justify-content: center; */
  text-align: center;
+ font-family: 'Playfair Display', serif;
  }
  #exhead1{
   text-align: center;
+  font-family: 'Playfair Display', serif;
+  
  }
  #head2Ex{
   text-align: center;
+  font-family: 'Roboto Slab', serif;
  }
+ /* @media(max-width:1151px){
+  #BtnEX6,#BtnEX7,#BtnEX8,#BtnEX9,#BtnEX10{
+   text-align: center;
+   /* padding-right: 2vw; */
+
+
+ 
  
 
 
