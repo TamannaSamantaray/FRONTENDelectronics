@@ -1279,11 +1279,9 @@ body{
   #BtnEX6,#BtnEX7,#BtnEX8,#BtnEX9,#BtnEX10{
    text-align: center;
    /* padding-right: 2vw; */
-
-
- 
- 
-
+.Exbody{
+  background: #efe053;
+}
 
 
 
