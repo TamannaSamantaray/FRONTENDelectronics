@@ -1283,6 +1283,13 @@ body{
   /* background: rgb(202, 202, 83); */
   background: #cdccc9;
 }
+#aim{
+  display: none;
+}
+#Theory{
+  color: black;
+  display: none;
+}
 
 
 
