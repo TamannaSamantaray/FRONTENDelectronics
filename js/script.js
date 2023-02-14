@@ -107,7 +107,7 @@ if (submit.placeholder) {
 
 
 
-
+//Experiment1 V-I characteristics
 
 function function1(){
   document.getElementById("aim").style.display = "block";
@@ -218,6 +218,131 @@ function function9(){
   document.getElementById("Download").style.display = "none";
 }
 function function10(){
+  document.getElementById("aim").style.display = "none";
+  document.getElementById("apparatus").style.display = "none";
+  document.getElementById("Theory").style.display = "none";
+  document.getElementById("Pre-Lab").style.display = "none";
+  document.getElementById("Procedure").style.display = "none";
+  document.getElementById("Observations").style.display = "none";
+  document.getElementById("Simulator").style.display = "none";
+  document.getElementById("Post-Lab").style.display = "none";
+  document.getElementById("Conclusion").style.display = "none";
+  document.getElementById("Download").style.display = "block";
+}
+
+
+
+//Experiment2 Half wave rectifier
+
+function function11(){
+  document.getElementById("aim").style.display = "block";
+  document.getElementById("apparatus").style.display = "none";
+  document.getElementById("Theory").style.display = "none";
+  document.getElementById("Pre-Lab").style.display = "none";
+  document.getElementById("Procedure").style.display = "none";
+  document.getElementById("Observations").style.display = "none";
+  document.getElementById("Simulator").style.display = "none";
+  document.getElementById("Post-Lab").style.display = "none";
+  document.getElementById("Conclusion").style.display = "none";
+  document.getElementById("Download").style.display = "none";
+}
+function function12(){
+  document.getElementById("aim").style.display = "none";
+  document.getElementById("apparatus").style.display = "block";
+  document.getElementById("Theory").style.display = "none";
+  document.getElementById("Pre-Lab").style.display = "none";
+  document.getElementById("Procedure").style.display = "none";
+  document.getElementById("Observations").style.display = "none";
+  document.getElementById("Simulator").style.display = "none";
+  document.getElementById("Post-Lab").style.display = "none";
+  document.getElementById("Conclusion").style.display = "none";
+  document.getElementById("Download").style.display = "none";
+}
+function function13(){
+  document.getElementById("aim").style.display = "none";
+  document.getElementById("apparatus").style.display = "none";
+  document.getElementById("Theory").style.display = "none";
+  document.getElementById("Pre-Lab").style.display = "block";
+  document.getElementById("Procedure").style.display = "none";
+  document.getElementById("Observations").style.display = "none";
+  document.getElementById("Simulator").style.display = "none";
+  document.getElementById("Post-Lab").style.display = "none";
+  document.getElementById("Conclusion").style.display = "none";
+  document.getElementById("Download").style.display = "none";
+}
+function function14(){
+  document.getElementById("aim").style.display = "none";
+  document.getElementById("apparatus").style.display = "none";
+  document.getElementById("Theory").style.display = "none";
+  document.getElementById("Pre-Lab").style.display = "block";
+  document.getElementById("Procedure").style.display = "none";
+  document.getElementById("Observations").style.display = "none";
+  document.getElementById("Simulator").style.display = "none";
+  document.getElementById("Post-Lab").style.display = "none";
+  document.getElementById("Conclusion").style.display = "none";
+  document.getElementById("Download").style.display = "none";
+}
+function function15(){
+  document.getElementById("aim").style.display = "none";
+  document.getElementById("apparatus").style.display = "none";
+  document.getElementById("Theory").style.display = "none";
+  document.getElementById("Pre-Lab").style.display = "none";
+  document.getElementById("Procedure").style.display = "block";
+  document.getElementById("Observations").style.display = "none";
+  document.getElementById("Simulator").style.display = "none";
+  document.getElementById("Post-Lab").style.display = "none";
+  document.getElementById("Conclusion").style.display = "none";
+  document.getElementById("Download").style.display = "none";
+}
+function function16(){
+  document.getElementById("aim").style.display = "none";
+  document.getElementById("apparatus").style.display = "none";
+  document.getElementById("Theory").style.display = "none";
+  document.getElementById("Pre-Lab").style.display = "none";
+  document.getElementById("Procedure").style.display = "none";
+  document.getElementById("Observations").style.display = "block";
+  document.getElementById("Simulator").style.display = "none";
+  document.getElementById("Post-Lab").style.display = "none";
+  document.getElementById("Conclusion").style.display = "none";
+  document.getElementById("Download").style.display = "none";
+}
+function function17(){
+  document.getElementById("aim").style.display = "none";
+  document.getElementById("apparatus").style.display = "none";
+  document.getElementById("Theory").style.display = "none";
+  document.getElementById("Pre-Lab").style.display = "none";
+  document.getElementById("Procedure").style.display = "none";
+  document.getElementById("Observations").style.display = "none";
+  document.getElementById("Simulator").style.display = "block";
+  document.getElementById("Post-Lab").style.display = "none";
+  document.getElementById("Conclusion").style.display = "none";
+  document.getElementById("Download").style.display = "none";
+}
+function function18(){
+  document.getElementById("aim").style.display = "none";
+  document.getElementById("apparatus").style.display = "none";
+  document.getElementById("Theory").style.display = "none";
+  document.getElementById("Pre-Lab").style.display = "none";
+  document.getElementById("Procedure").style.display = "none";
+  document.getElementById("Observations").style.display = "none";
+  document.getElementById("Simulator").style.display = "none";
+  document.getElementById("Post-Lab").style.display = "block";
+  document.getElementById("Conclusion").style.display = "none";
+  document.getElementById("Download").style.display = "none";
+}
+function function19(){
+  document.getElementById("aim").style.display = "none";
+  document.getElementById("apparatus").style.display = "none";
+  document.getElementById("Theory").style.display = "none";
+  document.getElementById("Pre-Lab").style.display = "none";
+  document.getElementById("Procedure").style.display = "none";
+  document.getElementById("Observations").style.display = "none";
+  document.getElementById("Simulator").style.display = "none";
+  document.getElementById("Post-Lab").style.display = "none";
+  document.getElementById("Conclusion").style.display = "block";
+  document.getElementById("Download").style.display = "none";
+}
+function function20(){
   document.getElementById("aim").style.display = "none";
   document.getElementById("apparatus").style.display = "none";
   document.getElementById("Theory").style.display = "none";
