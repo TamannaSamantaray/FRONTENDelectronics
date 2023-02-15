@@ -1288,13 +1288,16 @@ body{
 #aim{
   display: none;
   font-family: 'Noto Serif Khojki', serif;
-  margin-left: 2vw;
+  /* margin-left: 2vw; */
+  padding: 2vw;
 }
 #Theory{
   color: black;
   display: none;
   font-family: 'Noto Serif Khojki', serif;
-  margin-left: 2vw;
+  /* margin-left: 2vw; */
+  padding: 2vw;
+  text-align: justify;
 }
 #fwd-id{
   font-family: 'Noto Sans', sans-serif;
@@ -1304,14 +1307,29 @@ body{
   width: 28vw; 
   justify-content: center;
 }
-.apptable{
-  border: black;
-}
 #ckt-img{
   width:500px;
   height:300px;
 }
-
+.download-btn{
+  background: #001fe7;
+  color: white;
+  margin-left: 2vw;
+  margin-top: 2vw;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+.download-btn:hover{
+  background: black;
+}
+#pdf-btn{
+  padding: 2vw;
+}
+#apparatus{
+  /* padding: 1vw; */
+}
 
 
 

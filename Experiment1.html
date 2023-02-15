@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
@@ -57,47 +57,38 @@
 
     <div class="fwd-bias" id="fwd-id"><h6>To study the V-I characteristics of a P-N junction diode with the variation of temperature and to determine its static and dynamic resistance.</h6></div>
   </div>
-  <div class="row" id="apparatus" style="color: black;display: none;">
+  <div class="container-fluid" id="apparatus" style="color: black;display: none;">
 
-   <table class="apptable">
-    <h3>Apparatus required</h3>
-    <tr>
-      <th>SL No.</th>
-      <th>Device/Component</th>
-      <th>Specification</th>
-      <th>Quantity</th>
-    </tr>
-    <tr>
-      <td>1.</td>
-      <td>1N4001 diode</td> 
-      <td>Refer the datasheet</td>
-      <td>1</td>
-    </tr>
-     <tr>
-       <td>2</td>
-       <td>Voltage source</td>
-       <td>0-5(FB) 0-30V(RB)</td>
-       <td>1</td>
-     </tr>
-     <tr>
-      <td>3</td>
-      <td>Resistor</td>
-      <td>1KΩ 1/2W</td>
-      <td>1</td>
-     </tr>
-     <tr>
-      <td>4</td>
-      <td>Voltmeter</td>
-      <td>0-100 V</td>
-      <td>1</td>
-     </tr>
-     <tr>
-      <td>5</td>
-      <td>Ammeter</td>
-      <td>0-100mA (FB)0-100μA (FB)</td>
-      <td>1</td>
-     </tr>
-   </table>
+    <table class="table" style=" border: 0.1rem solid black;">
+      <thead class="thead-dark" style="background-color: black; color: white;">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
 
   </div>
   <div class="row" id="Theory">
@@ -140,8 +131,16 @@
    
    <span style="font-size: 1rem;">
     <p style="float:right;">(1.1)</p>
-    $$ {I_D = I_S(e^\frac{V_D}{nV_T})} $$                             
+      $$ {I_D = I_S(e^\frac{V_D}{nV_T})} $$                             
    </span>
+
+
+   <br>
+   <br>
+   <span style="font-size: 1rem;">
+    <p style="float:right;">(1.1)</p>
+    $$ {I\ =\ \frac{V_{s1-V_{s2}}}{R_4}} $$                             
+  </span>
 
    <span style="font-size: 1rem;">
     <p style="float:right;">(1.1)</p>
@@ -161,9 +160,10 @@
 
   <p style="text-align: center;">fig.(3)V-I Characteristics Curve with Different Temperature</p>
 
-
+<p style="color: black;">
+  $$ {R_{DC} = \ \frac{{\Delta V}_D}{\Delta I_D}} $$
+</p>
  
-
     
   </div>
   <div class="row" id="Pre-Lab" style="color: rgb(3, 0, 3);display: none;">
@@ -351,7 +351,8 @@
 
           <span style="font-size: 1rem;">
             <p style="float:right;">(1)</p>
-            $$ {I_D = I_s [e^(V_D/V_T )-1]} $$                        
+            <!-- $$ {I_D = I_s [e^(V_D/V_T )-1]} $$                         -->
+            $${V_{3 \Omega}=V_3=\frac{-15 \times 2}{5}=-3 \times 2=-6 \mathrm{~V}}$$
         </span>
         Given,
         <span style="font-size: 1rem;">
@@ -371,17 +372,12 @@
     <h6>2.The required Diode voltage increases with decrease in temperature , i.e the curve shifts towards right with decrease in temperature. </h6><br>
     <h6>3.During the Reversed bias characteristics Diode Knee voltage decreases with increase in temperature ,i.e the curve shifts towards left with increase in temperature.</h6><br>
   </div>
-  <div class="row" id="Download" style="color: rgb(255, 0, 166);display: none;">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum tenetur architecto, eius dolore sint cum sequi facilis voluptate deserunt reiciendis doloribus similique eum ab culpa quia, amet non alias dolores!
-    Nulla quam aspernatur distinctio, quasi a expedita dignissimos necessitatibus totam vel nemo non excepturi amet sunt quibusdam veritatis qui suscipit nostrum molestias doloribus adipisci explicabo pariatur! Inventore commodi beatae mollitia!
-    Eum veniam laboriosam necessitatibus, amet unde, reiciendis qui laudantium error perferendis magni veritatis aperiam quasi aspernatur. Rem, reprehenderit optio deserunt porro ullam excepturi tempora perspiciatis fugiat, necessitatibus ut dignissimos fugit.
-    Ducimus labore quaerat voluptates ratione accusantium, earum assumenda officiis, eum quisquam ullam laborum odio, velit deleniti tenetur sed similique! Voluptates sed voluptatibus voluptatum tenetur libero necessitatibus expedita provident sit modi.
-    Quis, cumque. Id nisi laborum aspernatur voluptate ad aut iusto eius rem odio reiciendis soluta, dolorem possimus in, tempora, modi ducimus. Soluta inventore harum quisquam pariatur omnis? Recusandae, dolorem aperiam.
-    Esse recusandae repellendus laudantium illo labore ex facere nihil necessitatibus neque. Nemo, tempora ipsum, deleniti impedit minima quidem, expedita quos inventore velit explicabo magnam ut quibusdam maxime consequuntur minus voluptate!
-    Illum repellendus asperiores ducimus ex esse magni nihil eaque ut unde quibusdam laudantium fugiat ad, cumque quia iure eligendi omnis repellat. Distinctio maxime nostrum veritatis? Saepe officia esse praesentium est?
-    Eveniet quas error sequi? Dolores cum perspiciatis non debitis facilis, voluptatibus omnis quaerat sit tenetur, adipisci voluptate recusandae reprehenderit molestiae sequi ipsum dolor? Doloribus cupiditate debitis quidem reiciendis itaque magnam.
-    Reprehenderit similique quis dolorem debitis consequatur ullam obcaecati esse alias quos sapiente, aliquid asperiores aspernatur nemo exercitationem rerum laudantium natus! Labore facilis perferendis quo. Perferendis molestiae nam eius optio accusamus!
-    Facere quaerat vero officiis, pariatur eius explicabo molestiae laboriosam odit repellendus eaque reprehenderit deserunt! Aliquid, illo obcaecati. Neque quos, dignissimos obcaecati inventore aliquid tenetur velit. Maiores totam iure enim tempore!
+  <div id="pdf-btn">
+  <div class="row" id="Download" style="color: rgb(51, 0, 255);display: none;">
+    <a href="/Assets/V-I characteristics/Smart Grid.pdf" download class="download-btn">Download
+      <i class="fa fa-download"></i>
+    </a>
+  </div>
   </div>
 </div>
   <footer class="bg-dark pt-5 pb-4 m-0">
