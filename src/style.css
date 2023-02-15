@@ -1370,6 +1370,16 @@ body{
   padding: 2vw;
   text-align: justify;
 }
+#Simulator{
+  color: black;
+  display: none;
+  font-family: 'Noto Serif Khojki', serif;
+  /* margin-left: 2vw; */
+  padding: 2vw;
+  text-align: justify;
+}
+
+
 
 
 
