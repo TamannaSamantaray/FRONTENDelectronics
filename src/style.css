@@ -1330,6 +1330,46 @@ body{
 #apparatus{
   /* padding: 1vw; */
 }
+#Procedure{
+  color: black;
+  display: none;
+  font-family: 'Noto Serif Khojki', serif;
+  /* margin-left: 2vw; */
+  padding: 2vw;
+  text-align: justify;
+}
+#Pre-Lab{
+  color: black;
+  display: none;
+  font-family: 'Noto Serif Khojki', serif;
+  /* margin-left: 2vw; */
+  padding: 2vw;
+  text-align: justify;
+}
+#apparatus{
+  color: black;
+  display: none;
+  font-family: 'Noto Serif Khojki', serif;
+  /* margin-left: 2vw; */
+  padding: 2vw;
+  text-align: justify;
+}
+#Conclusion{
+  color: black;
+  display: none;
+  font-family: 'Noto Serif Khojki', serif;
+  /* margin-left: 2vw; */
+  padding: 2vw;
+  text-align: justify;
+}
+#Post-Lab{
+  color: black;
+  display: none;
+  font-family: 'Noto Serif Khojki', serif;
+  /* margin-left: 2vw; */
+  padding: 2vw;
+  text-align: justify;
+}
 
 
 

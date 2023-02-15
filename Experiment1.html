@@ -58,7 +58,7 @@
     <div class="fwd-bias" id="fwd-id"><h6>To study the V-I characteristics of a P-N junction diode with the variation of temperature and to determine its static and dynamic resistance.</h6></div>
   </div>
   <div class="container-fluid" id="apparatus" style="color: black;display: none;">
-
+<!------apparatus-->
     <table class="table" style=" border: 0.1rem solid black;">
       <thead class="thead-dark" style="background-color: black; color: white;">
         <tr>
@@ -71,24 +71,43 @@
       <tbody>
         <tr>
           <th scope="row">1</th>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
+          <td>1N4001</td>
+          <td>Refer the datasheet</td>
+          <td>1</td>
         </tr>
         <tr>
           <th scope="row">2</th>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
+          <td>Voltage source</td>
+          <td>0-5 V (FB)
+            0-30 V (RB)
+            </td>
+          <td>1</td>
         </tr>
         <tr>
           <th scope="row">3</th>
-          <td>Larry</td>
-          <td>the Bird</td>
-          <td>@twitter</td>
+          <td>Resistor</td>
+          <td>1KΩ,1/2 W</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Voltmeter</td>
+          <td>0-100 V</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Ammeter</td>
+          <td>0-100mA (FB)
+              0-100μA (FB)
+            </td>
+          <td>1</td>
         </tr>
       </tbody>
     </table>
+    <p>To view these apparatus in 3D environment</p>
+    <button class="btn btn-dark" id="BtnEX1" type="button"><h6>CLICK HERE</h6></button>
+
 
   </div>
   <div class="row" id="Theory">
@@ -166,10 +185,10 @@
  
     
   </div>
-  <div class="row" id="Pre-Lab" style="color: rgb(3, 0, 3);display: none;">
+  <div class="container-fluid" id="Pre-Lab" style="color: rgb(3, 0, 3);display: none;">
    <h4> PRE-LAB FOR V-I CHARACTERISTICS OF DIODE</h4><br>
    All the students are duly advised to compute the values of diode current (I<sub>D</sub>) for different temperature values by using the Shockley Equation. The default values are as mentioned below (I<sub>S</sub>) = 10-9 A, (V<sub>D</sub>)= 0.6 V, ŋ = 1. 
-   <table>
+   <!-- <table>
     <tr>
       <th>SL No.</th>
       <th>T(in Kelvin)</th>
@@ -201,7 +220,10 @@
     <td></td>
   </tr>
 
-   </table>
+   </table> -->
+
+
+   
 
 
   </div>
@@ -367,7 +389,7 @@
    </form>
   
   </div>
-  <div class="row" id="Conclusion" style="color: rgb(6, 8, 6);display: none;">
+  <div class="row" id="Conclusion">
     <h6>1.From the above Experiment we conclude that during the forward bias P-N junction characteristics versus Temperature.</h6><br>
     <h6>2.The required Diode voltage increases with decrease in temperature , i.e the curve shifts towards right with decrease in temperature. </h6><br>
     <h6>3.During the Reversed bias characteristics Diode Knee voltage decreases with increase in temperature ,i.e the curve shifts towards left with increase in temperature.</h6><br>
