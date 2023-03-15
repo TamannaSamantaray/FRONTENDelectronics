@@ -122,7 +122,7 @@
           <th scope="row">1</th>
           <td>1N4001</td>
           <td>Refer the datasheet</td>
-          <td>4(bridge) 2(centreitape)</td>
+          <td>4(bridge) 2(centre-tape)</td>
         </tr>
         <tr>
           <th scope="row">2</th>
@@ -159,16 +159,16 @@
     <h4>THEORY:</h4><br>
   
     <div class="fwd-bias" id="fwd-id">
-    <h6>1.A diode is a device having two terminals the p(anode) and n(cathode) in which current flow in only one direction in which. </h6><br>
-    <h6>2.In an n-type material, the electron is the majority carrier and the hole is the minority carrier. In p-type material, the hole is the majority carrier and electron is the minority carrier.</h6> <br>
-    <h6>3.Biasing refers to the application of an external voltage across the two terminals of the device to extract a response.</h6><br>
+    <h6>1.Rectification is the method by which an alternating current which is periodically in reversed direction, is changed into a direct current. </h6><br>
+    <h6>2.Rectification uses the unidirectional conduction feature of the semiconductor diode.</h6> <br>
+    <h6>3.A rectifier is an electrical device used for this process of conversion. </h6><br>
+    <h6>4.A rectifier can be classified into two types: Half-wave Rectifier and Full-wave Rectifier. The half-wave rectifier is explained below.</h6><br>
+
   
     <h4>HALF-WAVE RECTIFIER:</h4><br>
       <div class="fwd-bias" id="fwd-id">
       <h6>1.The half-wave rectifier is the most basic type of rectifier circuit. </h6><br>
       <h6>2.Only a portion of an input signal can flow through a half-wave rectifier circuit. The circuit consists of a single diode connected in series with a resistor, which serves as a load.</h6><br>
-      <!-- <h6>3.As a result, number of immobile ions (acceptor and donor ions) in the depletion region decreases.</h6><br> -->
-      <!-- <h6>4.So, depletion width and junction potential reduce.</h6><br> -->
       </div>
   
       <div class="container-fluid">
@@ -187,10 +187,16 @@
       <!-- <h6>2.The total number of uncovered positive ions present inside the depletion region of the n-type material will increase because of the greater number of free electrons drained to the positive potential of applied voltage.</h6> <br> -->
       <!-- <h6>3.The number of uncovered negative ions will increase in the p-type material due to the same reason and the depletion region will be increased as the net result.</h6><br>   -->
       <!-- <h6>4.As the reverse biased voltage rises, the strength of the depletion region electric field also rises. The p-n junction depletion zone begins to breakdown if the electric field intensity rises over a critical point, and current starts to flow typically through either the Zener breakdown process or the avalanche breakdown process.</h6> <br> -->
+
+    
+      <div class="row" style="justify-content: center;">
+
       <h5>Negative Half Cycle:</h5><br>
+    
       <img class="img-fluid" id="ckt-img" src="Assets/V-I characteristics/negativecycle.png">
 
     </div>
+      </div>
     <!-- <img class="img-fluid" src="Assets/V-I characteristics/negativecycle.png" style="height: 20vw; width: 25vw;"> -->
      <p style="text-align: center;">
       fig.(2)Negative Half Cycle
@@ -240,7 +246,7 @@
 
     <h6>8.Ripple Factor (RF): -</h6><br>
     <span style="font-size: 1rem;">
-      $$ {RF =  \frac{AC\ (in\ \frac{O}{P\ }\ )}{DC\ (in\ \frac{O}{P\ }\ } = \sqrt{{(\frac{RMS}{DC})}^2}-1} $$                             
+      $$ {RF =  \frac{AC\ (in\ \frac{O}{P\ }\ )}{DC\ in\ \frac{O}{P\ }\ } = \sqrt{{(\frac{RMS}{DC})}^2}-1} $$                             
     </span>
 
     <h6>9. Form Factor (FF): -</h6><br>
@@ -278,7 +284,7 @@
       <h6>2.(V<sub>S</sub>)is positive, (D<sub>1</sub>) and (D<sub>2</sub>)  are forward biased, (D<sub>3</sub>) and (D<sub>4</sub>) are reverse biased, and the current flow shown in figure 2 provides the same polarity of output voltage as before during the positive half of the input voltage cycle.</h6><br>
       <div class="row" style="justify-content: center;"><img class="img-fluid" id="ckt-img" src="Assets/V-I characteristics/Bridgerectifier2.png"></div>
       <p style="text-align: center;">
-        fig.(1)
+        fig.(2)
       </p>
       <h6>3.(V<sub>S</sub>) is negative,(D<sub>3</sub>)  and (D<sub>4</sub>)  are forward biased where as (D<sub>2</sub>) and (D<sub>1</sub>) are reverse biased during the negative half-cycle of the input voltage. The output voltage has the same polarity irrespective of the flow direction shown in figure 3.</h6><br>
       <div class="row" style="justify-content: center;"><img class="img-fluid" id="ckt-img" src="Assets/V-I characteristics/bridgerectifier3.png"></div>
@@ -298,6 +304,71 @@
   </p> -->
   <h6>1.In a centre-tapped full-wave rectifier, the diode (D<sub>1</sub>)  is forward biased and switched on and the diode (D<sub>2</sub>) is reverse biased and switched off during the positive half of the input voltage (V<sub>S</sub>). A positive output voltage is produced by the output resistance and the current through (D<sub>1</sub>).</h6><br>
   <h6>2.Now, during the negative half cycle, (D<sub>1</sub>)  is switched off and reverse biased and (D<sub>2</sub>) is switched on forward biased, this causes the current flowing through the output resistance to once again result in a positive output voltage. </h6><br>
+   
+
+  <h4>FORMULAS IMPLEMENTED IN THIS EXPERIMENT:</h4><br>
+  <h6>1.DC Output Voltage(V<sub>DC</sub>): -</h6><br>
+  <span style="font-size: 1rem;">
+   $$ {V_{DC} = \frac{{2V}_M}{\pi} } $$                             
+ </span>
+
+ 
+ <h6>2.DC Output Current (I<sub>O</sub>): -</h6><br>
+ <span style="font-size: 1rem;">
+  $$ {I_{DC} = \frac{V_{DC}}{R} = \frac{2V_M}{\pi R_L} } $$                             
+</span>
+
+<h6>3.RMS Output Voltage(V<sub>O(RMS)</sub>): -</h6><br>
+ <span style="font-size: 1rem;">
+  $$ {V_{O(RMS)} = \frac{V_M}{\sqrt2}} $$                             
+</span>
+
+<h6>4.RMS Output Current (I<sub>O(RMS)</sub>): -</h6><br>
+ <span style="font-size: 1rem;">
+  $$ {I_{O(RMS)} = \frac{I_M}{\sqrt2} = \frac{V_M}{\sqrt2R_L} } $$                             
+</span>
+
+<h6>5.Ripple Factor (RF): -</h6><br>
+ <span style="font-size: 1rem;">
+  $$ {RF =  \frac{AC\ }{DC\ \ } = \sqrt{{(\frac{RMS}{DC})}^2}-1
+  CRF = \sqrt{{(\frac{\frac{I_M}{\sqrt2}}{\frac{{2I}_M}{\pi}})}^2}-1
+VRF= \sqrt{{(\frac{\frac{V_M}{\sqrt2}}{\frac{{2V}_M}{\pi}})}^2}-1
+} $$                             
+</span>
+
+<h6>6.Form Factor (FF): -</h6><br>
+ <span style="font-size: 1rem;">
+  $$ {FF = \frac{RMS}{Avg} = \frac{\ \frac{I_M}{\sqrt2}}{\frac{{2I}_M}{\pi}} = 1.11} $$                             
+</span>
+
+<h6>7.Form Factor (FF): -</h6><br>
+ <span style="font-size: 1rem;">
+  $$ {PF = \frac{Peak\ Value}{RMS\ Value} = \frac{V_M}{\frac{V_M}{\sqrt2}} = 1.414} $$                             
+</span>
+
+<h6>8.Rectifier Efficiency (ŋ):-</h6><br>
+ <span style="font-size: 1rem;">
+  $$ {} $$                             
+</span>
+
+<h6>9.Transformer Utilisation Factor (TUF): -
+  For Centre-tapped:
+</h6><br>
+ <span style="font-size: 1rem;">
+  $$ {  TUF = \frac{P_{DC}}{VA\ rolling\ of\ transformer}  
+  =      \frac{{I_{DC}}^2X\ R_L\ }{\frac{V_m}{\sqrt2}\ X\ \frac{I_m}{\sqrt2}}   =    \frac{\frac{{I_m}^2}{\Pi^2}\ X\ \ R_L}{\frac{{I_m}^2(R_L)}{2\sqrt2}}  
+                               TUF = \frac{2\sqrt2}{\Pi R_L} <br>
+     For Bridge Rectifier:
+                          TUF =\frac{Output\ DC\ Power}{VA\ rating\ of\ X^{Mer}}  = \frac{V_OI_O}{V_{sr}I_{sr}}
+     =    \frac{\frac{2V_M}{\pi}\ \ X\ \frac{2V_M}{\pi R_L}}{\frac{V_M}{\sqrt2}\ \ X\ \frac{V_M}{\sqrt2R_L}} = 0.812 = \frac{8}{\Pi^2}
+} $$                             
+</span>
+
+<h6>10.Output DC power:-</h6><br>
+ <span style="font-size: 1rem;">
+  $$ {          P_{DC} = {I_{DC}}^2R_L =  \left(\frac{2V_M}{\Pi R_L}\right)^2x\ R_L = \frac{\ {{4V}_M}^2}{\Pi^2R_L}} $$                             
+</span>
+
 
 
       </div>
@@ -331,6 +402,18 @@
   </div> -->
   </div>
   <div class="container-fluid" id="Pre-Lab" style="color: rgb(3, 0, 3);display: none;">
+
+
+  <p>
+
+    <h5>1. What is a rectifier circuit, and what is its purpose?</h5><br>
+    <h6>Ans.  A rectifier circuit is an electronic circuit that converts an alternating current (AC) signal into a direct current (DC) signal. The purpose of a rectifier circuit is to provide a steady and constant flow of current in one direction for electronic devices that require DC power.</h6><br>
+    <h5>2. What is a diode, and how does it work as a rectifier?</h5><br>
+    <h6>Ans.  A diode is an electronic component that allows current to flow in one direction and blocks it in the opposite direction. In a rectifier circuit, a diode is used to convert the AC signal into a DC signal by allowing only the positive half of the AC signal to pass through while blocking the negative half.</h6><br>
+    <h5>3. What is the efficiency of a rectifier circuit, and how can it be calculated?</h5><br>
+    <h6>Ans.  The efficiency of a rectifier circuit is the ratio of the DC power output to the AC power input. It can be calculated by dividing the DC output power by the AC input power and multiplying the result by 100 to get the percentage efficiency.</h6><br>
+
+  </p>
    <!-- <table>
     <tr>
       <th>SL No.</th>
@@ -364,7 +447,7 @@
   </tr>
 
    </table> -->
-
+  
    
         
      
@@ -472,9 +555,8 @@
   
   </div>
   <div class="row" id="Conclusion">
-    <h6>1.</h6><br>
-    <h6>2.</h6><br>
-    <h6>3.</h6><br>
+    <h6>1. In conclusion, the rectifier experiment is a fundamental experiment in electronics that helps students understand the basic operation of a rectifier circuit. The experiment involves the construction and testing of a half-wave and full-wave rectifier circuit, which are essential components in power supplies and various other electronic circuits.</h6><br>
+    <h6>2. The experiment provides hands-on experience in building electronic circuits and using testing equipment such as oscilloscopes and multimeters. It also helps students understand the principles of diode operation and how they can be used to convert AC power to DC power.</h6><br>
   </div>
   <div id="pdf-btn">
   <div class="row" id="Download" style="color: rgb(51, 0, 255);display: none;">

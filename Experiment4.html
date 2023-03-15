@@ -4,32 +4,655 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Experiment 1.</title>
+    <title>Experiment 4.</title>
     <link rel="stylesheet" type="text/css" href="src/style.css">
+    <script type="text/javaScript" src="js\script.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </head>
 <body class="Exbody">
- <div><h1>EXPERIMENT 1.</h1></div>
- <div><h4>Study of the V-I Characteristics of P-N junction diode & amp; Calculate DC & amp;AC resistance.</h4></div>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navigation_bar">
+     <div class="nav-logo">
+        <img src="src/LOGOElectronics.png" width="70" alt="" class="img-fluid"> 
+       
+     </div>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-coll">
+      <span class="navbar-toggler-icon"></span>
+ </button>
+ <div class="collapse navbar-collapse" id="nav-coll">
+     <ul class="navbar-nav navbar-float"id="nav-links1">
+       <!-- <li class="links1"><a class="links" href="#about-us">ABOUT</a></li> -->
+       <!-- <li class="links1"><a class="links" href="Labs.html">LABS</a></li> -->
+       <!-- <li class="links1"><a class="links" href="#salient">SALIENT&nbsp;FEATURES</a></li> -->
+       <li class="links1"><a class="links" href="userlogin.html">LOG&nbsp;IN</a></li>
+       <li class="links1"><a class="links" href="usersignup.html">SIGN&nbsp;UP</a></li>
+     </ul>
+    </div>
+    </nav>
+ </header>
+ <div class="exhead" id="exhead1"><h1>EXPERIMENT 4.</h1></div>
+ <div class="head2" id="head2Ex"><h4>Construction of positive, negative and biased clipper circuits & amp; study of their output waveforms by CRO</h4></div>
+
  <div class="button-group" id="btnhead">
 
- <button class="btn btn-primary" id="BtnEX" type="button"><h7>AIM</h7></button>
- <button class="btn btn-primary" id="BtnEX" type="button"><h6>APPARATUS</h6></button>
- <button class="btn btn-primary" id="BtnEX" type="button"><h6>THEORY</h6></button>
- <button class="btn btn-primary" id="BtnEX" type="button"><h6>PRE LAB</h6></button>
- <button class="btn btn-primary" id="BtnEX" type="button"><h6>PROCEDURE</h6></button>
- <button class="btn btn-primary" id="BtnEX" type="button"><h6>OBSERVATIONS</h6></button>
- <button class="btn btn-primary" id="BtnEX" type="button"><h6>SIMULATOR</h6></button>
- <button class="btn btn-primary" id="BtnEX" type="button"><h6>POST LAB</h6></button>
- <button class="btn btn-primary" id="BtnEX" type="button"><h6>CONCLUSION</h6></button>
- <button class="btn btn-primary" id="BtnEX" type="button"><h6>REFERENCES</h6></button>
+ <button class="btn btn-dark" id="BtnEX1" type="button" onclick="function1()"><h6>AIM</h6></button>
+ <button class="btn btn-dark" id="BtnEX2" type="button" onclick="function2()"><h6>APPARATUS</h6></button>
+ <button class="btn btn-dark" id="BtnEX3" type="button" onclick="function3()"><h6>THEORY</h6></button>
+ <button class="btn btn-dark" id="BtnEX4" type="button" onclick="function4()"><h6>PRE LAB</h6></button>
+ <button class="btn btn-dark" id="BtnEX5" type="button" onclick="function5()"><h6>PROCEDURE</h6></button>
+ <!-- <button class="btn btn-dark" id="BtnEX6" type="button" onclick="function6()"><h6>OBSERVATIONS</h6></button> -->
+ <button class="btn btn-dark" id="BtnEX7" type="button" onclick="function7()"><h6>SIMULATOR</h6></button>
+ <button class="btn btn-dark" id="BtnEX8" type="button" onclick="function8()"><h6>POST LAB</h6></button>
+ <button class="btn btn-dark" id="BtnEX9" type="button" onclick="function9()"><h6>CONCLUSION</h6></button>
+ <button class="btn btn-dark" id="BtnEX10" type="button" onclick="function10()"><h6>DOWNLOAD</h6></button>
   </div> 
+<div class="container"style="height:100vh; border: 1px solid black; margin-top: 2vw; margin-bottom: 2vw; overflow-y:scroll;">
+
+  <div class="row" id="aim">
+    <h4>AIM OF THE EXPERIMENT:</h4><br>
+
+    <div class="fwd-bias" id="fwd-id"><h6>Construction of positive, negative and biased clipper circuits and study of their output waveforms by NI MULTISIM.</h6></div>
+  </div>
+  <div class="container-fluid" id="apparatus" style="color: black;display: none;">
+<!------apparatus-->
+    <table class="table" style=" border: 0.1rem solid black;">
+      <!-- <h4>HALF-WAVE RECTIFIER:</h4><br> -->
+
+      <thead class="thead-dark" style="background-color: black; color: white;">
+        <tr>
+          <th scope="col">SL.NO</th>
+          <th scope="col">DEVICE/COMPONENT</th>
+          <th scope="col">SPECIFICATION</th>
+          <th scope="col">QUANTITY</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>1N4001</td>
+          <td>Refer the datasheet</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Voltage source</td>
+          <td>20V
+            </td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Resistor</td>
+          <td>1KΩ</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Probes</td>
+          <td></td>
+          <td>2</td>
+        </tr>
+        
+      </tbody>
+    </table>
+
+    <!-- <table class="table" style=" border: 0.1rem solid black;"> -->
+      <!-- <h4>FULL-WAVE RECTIFIER:</h4><br> -->
+
+      <!-- <thead class="thead-dark" style="background-color: black; color: white;">
+        <tr>
+          <th scope="col">SL.NO</th>
+          <th scope="col">DEVICE/COMPONENT</th>
+          <th scope="col">SPECIFICATION</th>
+          <th scope="col">QUANTITY</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>1N4001</td>
+          <td>Refer the datasheet</td>
+          <td>4(bridge) 2(centre-tape)</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Step-down transformer</td>
+          <td>Turns Ratio - 5:1</td>
+            <td>1</td>
+        </tr> -->
+        <!-- <tr>
+          <th scope="row">3</th>
+          <td>Resistor</td>
+          <td>1KΩ</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Probes</td>
+          <td></td>
+          <td>As required</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Oscilloscope</td>
+          <td></td>
+          <td>1</td>
+        </tr>
+      </tbody> -->
+    <!-- </table> -->
+    <p>To view these apparatus in 3D environment</p>
+    <button class="btn btn-dark" id="BtnEX1" type="button"><h6>CLICK HERE</h6></button>
+
+
+  </div>
+  <div class="row" id="Theory">
+    <h4>THEORY:</h4><br>
+  
+    <div class="fwd-bias" id="fwd-id">
+    <h6>1.The term clipper refers to a network that uses diodes to clip away a section of an input signal without altering the remaining portion of the applied waveform.  </h6><br>
+    <h6>2.The positive or negative region of the signal is clipped off depending on the orientation of the diode. </h6> <br>
+    <h6>3.Clippers are generally categorised into two types: series and shunt. In series configuration the diode is in series with the load and in the parallel configuration the diode is in a branch parallel with the load. </h6><br>
+
+  
+    <h4>SERIES CLIPPER CIRCUIT::</h4><br>
+      <div class="fwd-bias" id="fwd-id">
+      <h6>1.A clipper is referred to be a series clipper if the output is taken across the resistor and the diode and resistor are connected in series with the input AC (voltage) signal. </h6><br>
+      <h6>2.We can clip either the positive or the negative half of the input signal depending on the location of the diode. </h6><br>
+      <h6>3.Based on this, series clipper circuits are divided into two types: Positive Series Clipper and Negative Series Clipper. </h6><br>
+
+      </div>
+  
+      <div class="container-fluid">
+        <div class="row" style="justify-content: center;">
+          <h5>Positive Series Clipper:</h5><br>
+          <P>If a series clipper clips the positive half of the input signal, it is considered to be a positive series clipper.</P>
+
+      <img class="img-fluid" id="ckt-img" src="Assets/V-I characteristics/Positive series clipper.png">
+        </div>
+      </div>
+      <p style="text-align: center;">
+        fig.(1)
+      </p>
+      <!-- <h4>Reverse bias Condition:</h4><br> -->
+      <div class="fwd-bias" id="fwd-id">
+      <!-- <h6>1.During the positive half-cycle of the input, the diode is forward biased and conducts. A voltage is developed across the load as the current flows through it.</h6><br> -->
+      <!-- <h6>2.The total number of uncovered positive ions present inside the depletion region of the n-type material will increase because of the greater number of free electrons drained to the positive potential of applied voltage.</h6> <br> -->
+      <!-- <h6>3.The number of uncovered negative ions will increase in the p-type material due to the same reason and the depletion region will be increased as the net result.</h6><br>   -->
+      <!-- <h6>4.As the reverse biased voltage rises, the strength of the depletion region electric field also rises. The p-n junction depletion zone begins to breakdown if the electric field intensity rises over a critical point, and current starts to flow typically through either the Zener breakdown process or the avalanche breakdown process.</h6> <br> -->
+
+    
+      <div class="row" style="justify-content: center;">
+
+      <h5>Negative Series Clipper:</h5><br>
+      <P>If a series clipper clips the negative half of the input signal, it is considered to be a negative series clipper.</P>
+
+      <img class="img-fluid" id="ckt-img" src="Assets/V-I characteristics/negativeseriesclipper.png">
+
+    </div>
+      </div>
+    <!-- <img class="img-fluid" src="Assets/V-I characteristics/negativecycle.png" style="height: 20vw; width: 25vw;"> -->
+     <p style="text-align: center;">
+      fig.(2)
+     </p>
+
+     <h4>SHUNT CLIPPER CIRCUIT:</h4><br>
+      <div class="fwd-bias" id="fwd-id">
+      <h6>1.A clipper is referred to as a shunt clipper if the output is taken across the diode and the resistor and diode are connected in series with the input AC (voltage) signal.</h6><br>
+      <h6>2.We can clip either the positive or the negative half of the input signal depending on the location of the diode. </h6><br>
+      <h6>3.Based on this, shunt clipper circuits are divided into two types: Positive Shunt Clipper and Negative Shunt Clipper.</h6><br>
+
+      </div>
+
+      <div class="container-fluid">
+        <div class="row" style="justify-content: center;">
+          <h5>Positive Shunt Clipper:</h5><br>
+          <P>If a shunt clipper clips the positive half of the input signal, it is considered to be a positive shunt clipper.</P>
+
+      <img class="img-fluid" id="ckt-img" src="Assets/V-I characteristics/positiveshunt clipper.png">
+        </div>
+      </div>
+      <p style="text-align: center;">
+        fig.(1)
+      </p>
+
+      <div class="container-fluid">
+        <div class="row" style="justify-content: center;">
+          <h5>Negative Shunt Clipper:</h5><br>
+          <P>If a shunt clipper clips the negative half of the input signal, it is considered to be a negative shunt clipper.</P>
+
+      <img class="img-fluid" id="ckt-img" src="Assets/V-I characteristics/negativeshuntclipper.png">
+        </div>
+      </div>
+      <p style="text-align: center;">
+        fig.(1)
+      </p>
+
+
+
+     <!-- <p>For the forward bias and reverse bias, the general characteristics of a diode can be defined by an equation known as Shockley’s equation:</p>  -->
+     <!-- <h4>FORMULAS IMPLEMENTED IN THIS EXPERIMENT:</h4><br>
+     <h6>1. Average Output Voltage (V<sub>O</sub>): -</h6><br>
+     <span style="font-size: 1rem;">
+      $$ {V_O = \frac{V_M}{\pi}} $$                             
+    </span>
+     
+    <h6>2. Average Output Current (I<sub>O</sub>): -</h6><br>
+    <span style="font-size: 1rem;">
+      $$ {I_O = \frac{V_O}{R} = \frac{V_M}{\pi R_L}} $$                             
+    </span>
+
+    <h6>3.RMS Output Voltage (V<sub>O(RMS)</sub>): -</h6><br>
+    <span style="font-size: 1rem;">
+      $$ {V_{O(RMS)} = \frac{V_M}{2}} $$                             
+    </span>
+
+    <h6>4.RMS Output Current(I<sub>O(RMS)</sub>): -</h6><br>
+    <span style="font-size: 1rem;">
+      $$ {I_{O(RMS)} = \frac{V_{O(RMS)}}{R} = \frac{V_M}{2R_L} } $$                             
+    </span>
+
+    <h6>5.Power delivered to load(P<sub>(DEL)</sub>[LOAD]): -</h6><br>
+    <span style="font-size: 1rem;">
+      $$ {P_{(DEL)}[LOAD] = V_{O(RMS)}I_{O(RMS)}cos\phi} $$                             
+    </span>
+
+    <h6>6.Rectifier Efficiency (ŋ): -</h6><br>
+    <span style="font-size: 1rem;">
+      $$ {} $$                             
+    </span>
+
+    <h6>7.Transformer Utilisation Factor (TUF): -</h6><br>
+    <span style="font-size: 1rem;">
+      $$ {TUF = \frac{\frac{O}{P\ DC\ Power}}{VA\ rating\ of\ X^{mer}\ \ 2^{ndary}}} $$                             
+    </span>
+
+    <h6>8.Ripple Factor (RF): -</h6><br>
+    <span style="font-size: 1rem;">
+      $$ {RF =  \frac{AC\ (in\ \frac{O}{P\ }\ )}{DC\ in\ \frac{O}{P\ }\ } = \sqrt{{(\frac{RMS}{DC})}^2}-1} $$                             
+    </span>
+
+    <h6>9. Form Factor (FF): -</h6><br>
+    <span style="font-size: 1rem;">
+      $$ {FF = \frac{RMS}{DC} = \sqrt{{\rm RF}^2+1}} $$                             
+    </span>
+
+    <h6>10. Supply Power Factor (SPF): -</h6><br>
+    <span style="font-size: 1rem;">
+      $$ {SPF = cos \phi_s = \frac{V_{O(RMS)}I_{O(RMS)}}{V_{S(RMS)}I_{S(RMS)}}  = \frac{\frac{V_M}{2}}{\frac{V_M}{\sqrt2}} = \frac{1}{\sqrt2} = 0.707} $$                             
+    </span>
+
+    <h6>11. Peak Inverse Voltage (PIV): -</h6><br>
+    <span style="font-size: 1rem;">
+      $$ {PIV = V_M } $$                             
+    </span> -->
+
+    <!-- <h4>FULL-WAVE RECTIFIER:</h4><br>
+    <div class="fwd-bias" id="fwd-id">
+      <h6>1.Similar to a half-wave rectifier, a full-wave rectifier enables unidirectional current to flow through the load over the entire sinusoidal cycle (as opposed to only half the cycle in the half-wave). </h6><br>
+      <h6>2.Because the current through the load is unidirectional, the voltage that is generated across the load throughout both half cycles is also unidirectional. </h6><br>
+      <h6>3.A full-wave rectifier transforms the entire input waveform into an output waveform with constant polarity (positive or negative).</h6><br>
+      
+      <div class="container-fluid">
+        <div class="row" style="justify-content: center;">
+          <h5>BRIDGE RECTIFIER:</h5><br>
+
+      <img class="img-fluid" id="ckt-img" src="Assets/V-I characteristics/Bridgerectifier.png">
+        </div>
+      </div>
+      <p style="text-align: center;">
+        fig.(1)
+      </p>
+      <h6>1.In the bridge rectifier, a centre-tapped secondary winding is not necessary, since it offers electrical isolation between the input ac powerline and the rectifier output However, it uses four diodes, compared to only two in the centre-tapped circuit.</h6><br>
+      <h6>2.(V<sub>S</sub>)is positive, (D<sub>1</sub>) and (D<sub>2</sub>)  are forward biased, (D<sub>3</sub>) and (D<sub>4</sub>) are reverse biased, and the current flow shown in figure 2 provides the same polarity of output voltage as before during the positive half of the input voltage cycle.</h6><br>
+      <div class="row" style="justify-content: center;"><img class="img-fluid" id="ckt-img" src="Assets/V-I characteristics/Bridgerectifier2.png"></div>
+      <p style="text-align: center;">
+        fig.(2)
+      </p>
+      <h6>3.(V<sub>S</sub>) is negative,(D<sub>3</sub>)  and (D<sub>4</sub>)  are forward biased where as (D<sub>2</sub>) and (D<sub>1</sub>) are reverse biased during the negative half-cycle of the input voltage. The output voltage has the same polarity irrespective of the flow direction shown in figure 3.</h6><br>
+      <div class="row" style="justify-content: center;"><img class="img-fluid" id="ckt-img" src="Assets/V-I characteristics/bridgerectifier3.png"></div>
+      <p style="text-align: center;">
+        fig.(3)
+      </p> -->
+
+      <!-- <div class="container-fluid">
+        <div class="row" style="justify-content: center;">
+      <h5>CENTRE-TAPPED RECTIFIER:</h5><br>
+
+      <img class="img-fluid" id="ckt-img" src="Assets/V-I characteristics/centretapped.png">
+    </div>
+  </div>
+  <p style="text-align: center;">
+    fig.(3)
+  </p>
+   <h6>1.In a centre-tapped full-wave rectifier, the diode (D<sub>1</sub>)  is forward biased and switched on and the diode (D<sub>2</sub>) is reverse biased and switched off during the positive half of the input voltage (V<sub>S</sub>). A positive output voltage is produced by the output resistance and the current through (D<sub>1</sub>).</h6><br> -->
+  <!-- <h6>2.Now, during the negative half cycle, (D<sub>1</sub>)  is switched off and reverse biased and (D<sub>2</sub>) is switched on forward biased, this causes the current flowing through the output resistance to once again result in a positive output voltage. </h6><br> --> -->
+   
+
+  <!-- <h4>FORMULAS IMPLEMENTED IN THIS EXPERIMENT:</h4><br>
+  <h6>1.DC Output Voltage(V<sub>DC</sub>): -</h6><br>
+  <span style="font-size: 1rem;">
+   $$ {V_{DC} = \frac{{2V}_M}{\pi} } $$                             
+ </span>
+
  
+ <h6>2.DC Output Current (I<sub>O</sub>): -</h6><br>
+ <span style="font-size: 1rem;">
+  $$ {I_{DC} = \frac{V_{DC}}{R} = \frac{2V_M}{\pi R_L} } $$                             
+</span>
+
+<h6>3.RMS Output Voltage(V<sub>O(RMS)</sub>): -</h6><br>
+ <span style="font-size: 1rem;">
+  $$ {V_{O(RMS)} = \frac{V_M}{\sqrt2}} $$                             
+</span>
+
+<h6>4.RMS Output Current (I<sub>O(RMS)</sub>): -</h6><br>
+ <span style="font-size: 1rem;">
+  $$ {I_{O(RMS)} = \frac{I_M}{\sqrt2} = \frac{V_M}{\sqrt2R_L} } $$                             
+</span> -->
+
+<!-- <h6>5.Ripple Factor (RF): -</h6><br>
+ <span style="font-size: 1rem;">
+  $$ {RF =  \frac{AC\ }{DC\ \ } = \sqrt{{(\frac{RMS}{DC})}^2}-1
+  CRF = \sqrt{{(\frac{\frac{I_M}{\sqrt2}}{\frac{{2I}_M}{\pi}})}^2}-1
+VRF= \sqrt{{(\frac{\frac{V_M}{\sqrt2}}{\frac{{2V}_M}{\pi}})}^2}-1
+} $$                             
+</span>
+
+<h6>6.Form Factor (FF): -</h6><br>
+ <span style="font-size: 1rem;">
+  $$ {FF = \frac{RMS}{Avg} = \frac{\ \frac{I_M}{\sqrt2}}{\frac{{2I}_M}{\pi}} = 1.11} $$                             
+</span> -->
+
+<!-- <h6>7.Form Factor (FF): -</h6><br>
+ <span style="font-size: 1rem;">
+  $$ {PF = \frac{Peak\ Value}{RMS\ Value} = \frac{V_M}{\frac{V_M}{\sqrt2}} = 1.414} $$                             
+</span>
+
+<h6>8.Rectifier Efficiency (ŋ):-</h6><br>
+ <span style="font-size: 1rem;">
+  $$ {} $$                             
+</span> -->
+
+<!-- <h6>9.Transformer Utilisation Factor (TUF): -
+  For Centre-tapped:
+</h6><br>
+ <span style="font-size: 1rem;">
+  $$ {  TUF = \frac{P_{DC}}{VA\ rolling\ of\ transformer}  
+  =      \frac{{I_{DC}}^2X\ R_L\ }{\frac{V_m}{\sqrt2}\ X\ \frac{I_m}{\sqrt2}}   =    \frac{\frac{{I_m}^2}{\Pi^2}\ X\ \ R_L}{\frac{{I_m}^2(R_L)}{2\sqrt2}}  
+                               TUF = \frac{2\sqrt2}{\Pi R_L} <br>
+     For Bridge Rectifier:
+                          TUF =\frac{Output\ DC\ Power}{VA\ rating\ of\ X^{Mer}}  = \frac{V_OI_O}{V_{sr}I_{sr}}
+     =    \frac{\frac{2V_M}{\pi}\ \ X\ \frac{2V_M}{\pi R_L}}{\frac{V_M}{\sqrt2}\ \ X\ \frac{V_M}{\sqrt2R_L}} = 0.812 = \frac{8}{\Pi^2}
+} $$                             
+</span> -->
+
+<!-- <h6>10.Output DC power:-</h6><br>
+ <span style="font-size: 1rem;">
+  $$ {          P_{DC} = {I_{DC}}^2R_L =  \left(\frac{2V_M}{\Pi R_L}\right)^2x\ R_L = \frac{\ {{4V}_M}^2}{\Pi^2R_L}} $$                             
+</span> -->
+
+
+
+      </div>
+    <!-- </div> -->
+  
+  
+    
+  <!-- <div class="container-fluid" style="padding: 7vw;">
+    <div class="container" style="border: 2px solid black; margin-bottom: 2vw; background-color: white; text-align: justify; padding: 2vw; overflow-y: scroll;">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus enim accusamus velit asperiores tenetur, facilis optio veritatis maiores inventore ipsam vel, exercitationem reiciendis hic sed numquam cum incidunt? Dolorem, velit?
+      Nisi, aperiam ea officia doloribus quibusdam hic excepturi odit, magni commodi numquam, quos temporibus eligendi impedit. Nostrum reiciendis pariatur quam debitis beatae amet, dolorem ratione, laborum magni maiores, illo nisi!
+      Nobis est adipisci non sapiente illum maxime laboriosam nulla eum, molestiae facilis earum minima voluptates, quia illo quasi vero voluptatem ut voluptatum iste mollitia. Hic vel facilis voluptate assumenda quibusdam?
+      Dicta ducimus quidem esse vitae quam error rerum, nisi magnam laboriosam, quod soluta accusantium velit fuga illum quisquam, repudiandae est aliquam nostrum placeat. Natus soluta libero fuga voluptatem voluptas unde?
+      Sint eaque, deserunt dignissimos voluptatum accusamus itaque quae iure eius impedit modi labore necessitatibus dicta, laudantium a maxime, debitis assumenda veniam ipsa. Id quasi assumenda accusantium beatae! Facere, et laborum?
+      Culpa modi expedita voluptas blanditiis quam, excepturi odio non natus vero provident distinctio repellat consequatur cumque quos, alias nemo doloribus explicabo est autem? Placeat minus deleniti porro obcaecati dignissimos sunt.
+      Nobis dolores consequuntur quae eveniet facilis odio pariatur deleniti provident maiores aperiam? Earum incidunt commodi officiis rem illum accusamus adipisci. Nemo ut vero optio nihil rerum vitae accusamus animi nobis?
+      At dignissimos alias explicabo delectus, temporibus aperiam corporis hic, id doloribus laboriosam, pariatur non assumenda obcaecati possimus. Provident aliquid fugiat quam possimus nostrum a, iure, hic sit labore quae esse.
+      Illo, recusandae optio saepe dolorum maxime ducimus pariatur repellat, temporibus, eligendi excepturi repudiandae vero atque delectus debitis aspernatur aliquid odit voluptatum. Voluptatem, voluptatum tempora. Amet tenetur ex facere deleniti quia!
+      Dolorum nesciunt, soluta, non blanditiis, tempore asperiores dolorem ullam laboriosam rerum enim perferendis ducimus quam nemo iure. Quod dolorem libero commodi, eos amet quasi. Illum magnam nam consequatur in eius.
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde cupiditate aperiam beatae! At reprehenderit tempore molestias dolorem asperiores, itaque suscipit eaque laborum fugit odit odio adipisci aspernatur possimus illum totam.
+      Rerum odio ipsam totam, adipisci nam velit quas culpa quae eius omnis quos veritatis consectetur corrupti ullam. Quasi animi, officiis recusandae, veniam ea doloremque voluptatum in alias quisquam delectus necessitatibus.
+      Deserunt, consectetur a architecto nesciunt quidem doloremque ratione, esse odit laborum placeat ipsam eaque cupiditate nisi repudiandae consequatur est rerum provident exercitationem facere alias. Recusandae exercitationem harum quis eius quo!
+      Iste quas repellendus nostrum, nam laborum tempora eius, qui sunt dolore consectetur eaque modi, reprehenderit exercitationem at voluptatibus optio temporibus alias quis? Repellendus mollitia ab quas deserunt adipisci minus possimus?
+      Voluptates vero dolores dolore dolorem atque fugit ex deserunt sapiente ullam accusantium accusamus praesentium tempore unde, hic doloremque qui? Veritatis tenetur id unde error repudiandae, incidunt officia modi enim sunt?
+      Ipsum exercitationem minus aliquam non ducimus excepturi saepe tempore at numquam ipsam, pariatur recusandae laudantium molestias totam officiis cupiditate odio laboriosam eligendi aliquid obcaecati repellendus corrupti odit molestiae cumque! Accusamus.
+      Doloribus voluptas iste amet repudiandae velit suscipit, temporibus voluptatum dolor nemo animi, officiis, deserunt natus tempora dolorem facilis dolores a aut ea nesciunt molestias perferendis accusamus? Ipsam tenetur tempora ipsum?
+      Eligendi atque, odit nulla corrupti nisi quia mollitia, quae fuga consequatur quos, accusamus harum exercitationem! Totam velit facere dolores suscipit tempora architecto illum molestiae nam doloremque. Quasi tempore corrupti est?
+      Doloremque, corrupti recusandae, debitis earum, eum adipisci magnam repellat dignissimos totam harum iste delectus quibusdam nostrum ipsum reiciendis? Amet voluptas sint asperiores dolor? Esse quisquam eaque voluptates accusantium, corrupti veniam.
+      Esse similique tenetur itaque tempora, fuga, eos beatae provident doloribus, voluptates eius sint quam sed voluptatibus ut. Nihil dolorem aliquid molestiae adipisci. Accusamus sint porro, ipsam tempore delectus excepturi consectetur?
+    </div>
+  </div> -->
+  </div>
+  <div class="container-fluid" id="Pre-Lab" style="color: rgb(3, 0, 3);display: none;">
+
+
+  <p>
+
+    <h5>1. What is a clipper circuit, and how does it differ from a clamper circuit?</h5><br>
+    <h6>Ans.A clipper circuit is an electronic circuit that clips or cuts off a portion of an input signal, while a clamper circuit shifts the DC level of the input signal without changing its shape.</h6><br>
+    <h5>2.How can the output waveform of a clipper circuit be controlled?</h5><br>
+    <h6>Ans.The output waveform of a clipper circuit can be controlled by adjusting the amplitude and phase of the input signal, the values of the circuit components, and the polarity of the diode. By changing these parameters, the level at which the input signal is clipped and the shape of the output waveform can be modified.</h6><br>
+    <!-- <h5>3. What is the efficiency of a rectifier circuit, and how can it be calculated?</h5><br> -->
+    <!-- <h6>Ans.  The efficiency of a rectifier circuit is the ratio of the DC power output to the AC power input. It can be calculated by dividing the DC output power by the AC input power and multiplying the result by 100 to get the percentage efficiency.</h6><br> -->
+
+  </p>
+  
+   <!-- <table>
+    <tr>
+      <th>SL No.</th>
+      <th>T(in Kelvin)</th>
+      <th>(I<sub>D</sub>)(In mA)</th>
+    </tr>
+    <tr>
+      <td>1.</td>
+      <td>300 K</td>
+      <td></td>
+   </tr>
+   <tr>
+    <td>2.</td>
+    <td>325 K</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>3.</td>
+    <td>350 K</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>4.</td>
+    <td>375 K</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>5.</td>
+    <td>400 K</td>
+    <td></td>
+  </tr>
+
+   </table> -->
+  
+   
+        
+     
+   
+
+
+  </div>
+  <div class="row" id="Procedure" style="color: rgb(2, 20, 21);display: none;">
+    <h6>1.Input the primary voltage value (V<sub>IN(P)</sub>).</h6><br>
+    <h6>2.The corresponding secondary voltage will be calculated (V<sub>IN(S)</sub>).</h6><br>
+    <h6>3.Set the linear frequency (preferably 50 Hz).</h6><br>
+    <h6>4.The load resistor (R<sub>L</sub>) is fixed at 1 KΩ.</h6><br>
+    <h6>5.Click calculate to get the output values.</h6><br>
+
+    
+           
+    
+
+    
+  </div>
+  <div class="row" id="Observations" style="color: rgb(242, 255, 0);display: none;">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum tenetur architecto, eius dolore sint cum sequi facilis voluptate deserunt reiciendis doloribus similique eum ab culpa quia, amet non alias dolores!
+    Nulla quam aspernatur distinctio, quasi a expedita dignissimos necessitatibus totam vel nemo non excepturi amet sunt quibusdam veritatis qui suscipit nostrum molestias doloribus adipisci explicabo pariatur! Inventore commodi beatae mollitia!
+    Eum veniam laboriosam necessitatibus, amet unde, reiciendis qui laudantium error perferendis magni veritatis aperiam quasi aspernatur. Rem, reprehenderit optio deserunt porro ullam excepturi tempora perspiciatis fugiat, necessitatibus ut dignissimos fugit.
+    Ducimus labore quaerat voluptates ratione accusantium, earum assumenda officiis, eum quisquam ullam laborum odio, velit deleniti tenetur sed similique! Voluptates sed voluptatibus voluptatum tenetur libero necessitatibus expedita provident sit modi.
+    Quis, cumque. Id nisi laborum aspernatur voluptate ad aut iusto eius rem odio reiciendis soluta, dolorem possimus in, tempora, modi ducimus. Soluta inventore harum quisquam pariatur omnis? Recusandae, dolorem aperiam.
+    Esse recusandae repellendus laudantium illo labore ex facere nihil necessitatibus neque. Nemo, tempora ipsum, deleniti impedit minima quidem, expedita quos inventore velit explicabo magnam ut quibusdam maxime consequuntur minus voluptate!
+    Illum repellendus asperiores ducimus ex esse magni nihil eaque ut unde quibusdam laudantium fugiat ad, cumque quia iure eligendi omnis repellat. Distinctio maxime nostrum veritatis? Saepe officia esse praesentium est?
+    Eveniet quas error sequi? Dolores cum perspiciatis non debitis facilis, voluptatibus omnis quaerat sit tenetur, adipisci voluptate recusandae reprehenderit molestiae sequi ipsum dolor? Doloribus cupiditate debitis quidem reiciendis itaque magnam.
+    Reprehenderit similique quis dolorem debitis consequatur ullam obcaecati esse alias quos sapiente, aliquid asperiores aspernatur nemo exercitationem rerum laudantium natus! Labore facilis perferendis quo. Perferendis molestiae nam eius optio accusamus!
+    Facere quaerat vero officiis, pariatur eius explicabo molestiae laboriosam odit repellendus eaque reprehenderit deserunt! Aliquid, illo obcaecati. Neque quos, dignissimos obcaecati inventore aliquid tenetur velit. Maiores totam iure enim tempore!
+  </div>
+  <div class="row" id="Simulator" style="color: rgb(10, 10, 11);display: none;">
+   <p>TO PERFORM SIMULATION OF THIS EXPERIMENT</p>
+   <div>   <button class="btn btn-dark" id="BtnEX1" type="button"><h6>CLICK HERE</h6></button>
+   </div>
+  </div>
+  <div class="row" id="Post-Lab" style="color: rgb(11, 12, 12);display: none;">
+   <h4>POST LAB FOR V-I CHARACTERISTICS OF P-N JUNCTION DIODE</h4><br>
+   <form>
+
+    <p>1.Which one of the following I-V characteristics is the ideal characteristics for a P-N junction diode?
+      <label>     
+         <img class="img-fluid" src="Assets/V-I characteristics/Qstn1a.png">
+         <input type="radio">
+      </label>
+      <label>
+         <img class="img-fluid" src="Assets/V-I characteristics/Qstn1b.png">
+         <input type="radio">
+        </label>
+        <label>
+         <img class="img-fluid" src="Assets/V-I characteristics/Qstn1c.png">
+         <input type="radio">
+        </label>
+        <label>
+         <img class="img-fluid" src="Assets/V-I characteristics/Qstn1d.png">
+         <input type="radio">
+        </label><br>
+        Ans: (D)
+          (1). If current is positive (i.e., going from P to N), voltage across diode = 0V. Thus, device is short circuited and it allow any current to flow through it.<br>
+          (2). Current can’t be negative (i.e., from N to P), current through P to N = 0A. Thus, device is open circuited and it can take any voltage across itself.<br>
+        
+          2.  The voltage of the current supplied by voltage source is ?<br>
+          <img class="img-fluid" src="Assets/V-I characteristics/Post Lab dig1.png" style="height:20vw; width:30vw"><br>
+
+          <label>
+            a.0.5mA   
+           <input type="radio">
+          </label>
+          <label>
+            b.-0.5mA      
+           <input type="radio">
+          </label>
+          <label>
+            c. 0mA    
+           <input type="radio">
+          </label>
+          <label>
+            d.-2mA
+    
+           <input type="radio">
+          </label><br>
+
+          Ans: (c) The 5V battery orientation is opposing the diode, hence diode is OFF and I = 0mA.<br>
+
+          3. Find diode voltage, if T = 300 K, Is for Ge = 10-6A, ID = 8mA (Assume ŋ = 1)<br>
+          Ans: Using Shockley’s Equation,
+
+          <span style="font-size: 1rem;">
+            <p style="float:right;">(1)</p>
+            <!-- $$ {I_D = I_s [e^(V_D/V_T )-1]} $$                         -->
+            $${V_{3 \Omega}=V_3=\frac{-15 \times 2}{5}=-3 \times 2=-6 \mathrm{~V}}$$
+        </span>
+        Given,
+        <span style="font-size: 1rem;">
+          <p style="float:right;"></p>
+          $$ {I_D = 8mA,  I_s = 10^(-6) A, T = 300 K} $$                        
+      </span>
+
+
+     </p>
+
+
+   </form>
+  
+  </div>
+  <div class="row" id="Conclusion">
+    <h6>1.The clipper circuit experiment is a fundamental experiment in electronics that explores the behavior of a clipper circuit, a type of electronic circuit that clips or cuts off a portion of an input signal. The experiment helps to understand the principles of operation of the clipper circuit, the types of clipper circuits, and how to design and analyze clipper circuits.</h6><br>
+    <h6>2.The experiment involves constructing a clipper circuit using a diode, a resistor, and a signal generator, and observing the output waveform of the circuit on an oscilloscope. By changing the values of the circuit components, the amplitude and phase of the input signal, and the polarity of the diode, the output waveform can be clipped and its shape can be modified.</h6><br>
+  </div>
+  <div id="pdf-btn">
+  <div class="row" id="Download" style="color: rgb(51, 0, 255);display: none;">
+    <a href="/Assets/V-I characteristics/Smart Grid.pdf" download class="download-btn">Download
+      <i class="fa fa-download"></i>
+    </a>
+  </div>
+  </div>
+ 
+
+</div>
+  <footer class="bg-dark pt-5 pb-4 m-0">
+    <div class="container text-center text-md-left" id="footer-contain">
+     <div class="row text-center text-md-left">
+      <!-- <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold " id="footer-text">ELECTRONICS VIRTUAL LAB</h5>
+      <img src="src\LOGOElectronics.png" width="200">  
+  
+      </div>
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold " id="footer-text">LINKS</h5>
+  
+        <p>
+          <a href="#" class="text" id="subfoot-text">GCEK</a>
+        </p>
+        <p>
+          <a href="#" class="text" id="subfoot-text">Central Library GCEK</a>
+        </p>
+        <p>
+          <a href="#" class="text" id="subfoot-text">GCEK Student Attendance</a>
+        </p>
+        <p>
+          <a href="#" class="text" id="subfoot-text">Virtual Lab Attendance</a>
+        </p>
+      </div>
+      <div class="col-md-3 coll-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold" id="footer-text">LEGAL</h5>
+        <p>
+          <a href="#" class="text" id="subfoot-text">Terms & Conditions</a> -->
+        <!-- </p>
+        <p>
+          <a href="#" class="text" id="subfoot-text">Privacy Policy</a>
+        </p>
+        <p>
+          <a href="#" class="text" id="subfoot-text">Disclaimer</a>
+        </p>
+  </div>
+   -->
+  <!-- <div class="col-md-4 col-lg-3 col col-xl-3 mx-auto mt-3"> -->
+    <!-- <h5 class="text-uppercase mb-4 font-weight-bold" id="footer-text">contact us</h5> -->
+    <!-- <p id="college-name">Government College of Engineering Kalahandi,Bhawanipatna </p> -->
+    <!-- <p id="admin-email">admin@electronicsvlab.com</p> -->
+    <!-- <p id="number">+91 123456789</p> -->
+      
+  </div>
+ 
+  <hr id="line">
+  <p id="copy">© 2023 ELECTRONICS VIRTUAL LAB-All Rights Reserved</p>
+  <!-- <p id="develop">Developed Electronics Virtual Lab Team (2019-2023 Batch)</p> -->
+  <!-- <p id="college-namehr">Government College of Engineering Kalahandi,Bhawanipatna</p> -->
+  <!-- </div> -->
+     <!-- </div> -->
+    <!-- </div> -->
+  </footer>
+  
+  </body>
+  </html>
  
 </body>
 </html>
