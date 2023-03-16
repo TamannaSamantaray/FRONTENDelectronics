@@ -46,7 +46,6 @@
  <button class="btn btn-dark" id="BtnEX3" type="button" onclick="function3()"><h6>THEORY</h6></button>
  <button class="btn btn-dark" id="BtnEX4" type="button" onclick="function4()"><h6>PRE LAB</h6></button>
  <button class="btn btn-dark" id="BtnEX5" type="button" onclick="function5()"><h6>PROCEDURE</h6></button>
- <!-- <button class="btn btn-dark" id="BtnEX6" type="button" onclick="function6()"><h6>OBSERVATIONS</h6></button> -->
  <button class="btn btn-dark" id="BtnEX7" type="button" onclick="function7()"><h6>SIMULATOR</h6></button>
  <button class="btn btn-dark" id="BtnEX8" type="button" onclick="function8()"><h6>POST LAB</h6></button>
  <button class="btn btn-dark" id="BtnEX9" type="button" onclick="function9()"><h6>CONCLUSION</h6></button>
@@ -60,7 +59,7 @@
     <div class="fwd-bias" id="fwd-id"><h6>Construction of half-wave and full-wave rectifier circuits and study of their output waveforms through oscilloscope along with calculation of different parameters.</h6></div>
   </div>
   <div class="container-fluid" id="apparatus" style="color: black;display: none;">
-<!------apparatus-->
+  <!------apparatus-->
     <table class="table" style=" border: 0.1rem solid black;">
       <h4>HALF-WAVE RECTIFIER:</h4><br>
 
@@ -156,10 +155,12 @@
 
 
   </div>
+
+  <!----THEORY-->
   <div class="row" id="Theory">
     <h4>THEORY:</h4><br>
   
-    <div class="fwd-bias" id="fwd-id">
+  <div class="fwd-bias" id="fwd-id">
     <h6>1.Rectification is the method by which an alternating current which is periodically in reversed direction, is changed into a direct current. </h6><br>
     <h6>2.Rectification uses the unidirectional conduction feature of the semiconductor diode.</h6> <br>
     <h6>3.A rectifier is an electrical device used for this process of conversion. </h6><br>
@@ -299,10 +300,10 @@
 
       <img class="img-fluid" id="ckt-img" src="Assets/V-I characteristics/centretapped.png">
     </div>
-  </div>
-  <!-- <p style="text-align: center;">
+   </div>
+   <!-- <p style="text-align: center;">
     fig.(3)
-  </p> -->
+   </p> -->
   <h6>1.In a centre-tapped full-wave rectifier, the diode (D<sub>1</sub>)  is forward biased and switched on and the diode (D<sub>2</sub>) is reverse biased and switched off during the positive half of the input voltage (V<sub>S</sub>). A positive output voltage is produced by the output resistance and the current through (D<sub>1</sub>).</h6><br>
   <h6>2.Now, during the negative half cycle, (D<sub>1</sub>)  is switched off and reverse biased and (D<sub>2</sub>) is switched on forward biased, this causes the current flowing through the output resistance to once again result in a positive output voltage. </h6><br>
    
@@ -317,44 +318,44 @@
  <h6>2.DC Output Current (I<sub>O</sub>): -</h6><br>
  <span style="font-size: 1rem;">
   $$ {I_{DC} = \frac{V_{DC}}{R} = \frac{2V_M}{\pi R_L} } $$                             
-</span>
+  </span>
 
-<h6>3.RMS Output Voltage(V<sub>O(RMS)</sub>): -</h6><br>
+  <h6>3.RMS Output Voltage(V<sub>O(RMS)</sub>): -</h6><br>
  <span style="font-size: 1rem;">
   $$ {V_{O(RMS)} = \frac{V_M}{\sqrt2}} $$                             
-</span>
+ </span>
 
-<h6>4.RMS Output Current (I<sub>O(RMS)</sub>): -</h6><br>
+ <h6>4.RMS Output Current (I<sub>O(RMS)</sub>): -</h6><br>
  <span style="font-size: 1rem;">
   $$ {I_{O(RMS)} = \frac{I_M}{\sqrt2} = \frac{V_M}{\sqrt2R_L} } $$                             
-</span>
+ </span>
 
-<h6>5.Ripple Factor (RF): -</h6><br>
+ <h6>5.Ripple Factor (RF): -</h6><br>
  <span style="font-size: 1rem;">
   $$ {RF =  \frac{AC\ }{DC\ \ } = \sqrt{{(\frac{RMS}{DC})}^2}-1
   CRF = \sqrt{{(\frac{\frac{I_M}{\sqrt2}}{\frac{{2I}_M}{\pi}})}^2}-1
-VRF= \sqrt{{(\frac{\frac{V_M}{\sqrt2}}{\frac{{2V}_M}{\pi}})}^2}-1
-} $$                             
-</span>
+ VRF= \sqrt{{(\frac{\frac{V_M}{\sqrt2}}{\frac{{2V}_M}{\pi}})}^2}-1
+ } $$                             
+ </span>
 
-<h6>6.Form Factor (FF): -</h6><br>
+ <h6>6.Form Factor (FF): -</h6><br>
  <span style="font-size: 1rem;">
   $$ {FF = \frac{RMS}{Avg} = \frac{\ \frac{I_M}{\sqrt2}}{\frac{{2I}_M}{\pi}} = 1.11} $$                             
-</span>
+ </span>
 
-<h6>7.Form Factor (FF): -</h6><br>
+ <h6>7.Form Factor (FF): -</h6><br>
  <span style="font-size: 1rem;">
   $$ {PF = \frac{Peak\ Value}{RMS\ Value} = \frac{V_M}{\frac{V_M}{\sqrt2}} = 1.414} $$                             
-</span>
+ </span>
 
-<h6>8.Rectifier Efficiency (ŋ):-</h6><br>
+ <h6>8.Rectifier Efficiency (ŋ):-</h6><br>
  <span style="font-size: 1rem;">
   $$ {} $$                             
-</span>
+ </span>
 
-<h6>9.Transformer Utilisation Factor (TUF): -
+ <h6>9.Transformer Utilisation Factor (TUF): -
   For Centre-tapped:
-</h6><br>
+ </h6><br>
  <span style="font-size: 1rem;">
   $$ {  TUF = \frac{P_{DC}}{VA\ rolling\ of\ transformer}  
   =      \frac{{I_{DC}}^2X\ R_L\ }{\frac{V_m}{\sqrt2}\ X\ \frac{I_m}{\sqrt2}}   =    \frac{\frac{{I_m}^2}{\Pi^2}\ X\ \ R_L}{\frac{{I_m}^2(R_L)}{2\sqrt2}}  
@@ -362,13 +363,13 @@ VRF= \sqrt{{(\frac{\frac{V_M}{\sqrt2}}{\frac{{2V}_M}{\pi}})}^2}-1
      For Bridge Rectifier:
                           TUF =\frac{Output\ DC\ Power}{VA\ rating\ of\ X^{Mer}}  = \frac{V_OI_O}{V_{sr}I_{sr}}
      =    \frac{\frac{2V_M}{\pi}\ \ X\ \frac{2V_M}{\pi R_L}}{\frac{V_M}{\sqrt2}\ \ X\ \frac{V_M}{\sqrt2R_L}} = 0.812 = \frac{8}{\Pi^2}
-} $$                             
-</span>
+ } $$                             
+ </span>
 
-<h6>10.Output DC power:-</h6><br>
+ <h6>10.Output DC power:-</h6><br>
  <span style="font-size: 1rem;">
-  $$ {          P_{DC} = {I_{DC}}^2R_L =  \left(\frac{2V_M}{\Pi R_L}\right)^2x\ R_L = \frac{\ {{4V}_M}^2}{\Pi^2R_L}} $$                             
-</span>
+  $$ { P_{DC} = {I_{DC}}^2R_L =  \left(\frac{2V_M}{\Pi R_L}\right)^2x\ R_L = \frac{\ {{4V}_M}^2}{\Pi^2R_L}} $$                             
+ </span>
 
 
 
@@ -376,32 +377,10 @@ VRF= \sqrt{{(\frac{\frac{V_M}{\sqrt2}}{\frac{{2V}_M}{\pi}})}^2}-1
     </div>
   
   
-    
-  <!-- <div class="container-fluid" style="padding: 7vw;">
-    <div class="container" style="border: 2px solid black; margin-bottom: 2vw; background-color: white; text-align: justify; padding: 2vw; overflow-y: scroll;">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus enim accusamus velit asperiores tenetur, facilis optio veritatis maiores inventore ipsam vel, exercitationem reiciendis hic sed numquam cum incidunt? Dolorem, velit?
-      Nisi, aperiam ea officia doloribus quibusdam hic excepturi odit, magni commodi numquam, quos temporibus eligendi impedit. Nostrum reiciendis pariatur quam debitis beatae amet, dolorem ratione, laborum magni maiores, illo nisi!
-      Nobis est adipisci non sapiente illum maxime laboriosam nulla eum, molestiae facilis earum minima voluptates, quia illo quasi vero voluptatem ut voluptatum iste mollitia. Hic vel facilis voluptate assumenda quibusdam?
-      Dicta ducimus quidem esse vitae quam error rerum, nisi magnam laboriosam, quod soluta accusantium velit fuga illum quisquam, repudiandae est aliquam nostrum placeat. Natus soluta libero fuga voluptatem voluptas unde?
-      Sint eaque, deserunt dignissimos voluptatum accusamus itaque quae iure eius impedit modi labore necessitatibus dicta, laudantium a maxime, debitis assumenda veniam ipsa. Id quasi assumenda accusantium beatae! Facere, et laborum?
-      Culpa modi expedita voluptas blanditiis quam, excepturi odio non natus vero provident distinctio repellat consequatur cumque quos, alias nemo doloribus explicabo est autem? Placeat minus deleniti porro obcaecati dignissimos sunt.
-      Nobis dolores consequuntur quae eveniet facilis odio pariatur deleniti provident maiores aperiam? Earum incidunt commodi officiis rem illum accusamus adipisci. Nemo ut vero optio nihil rerum vitae accusamus animi nobis?
-      At dignissimos alias explicabo delectus, temporibus aperiam corporis hic, id doloribus laboriosam, pariatur non assumenda obcaecati possimus. Provident aliquid fugiat quam possimus nostrum a, iure, hic sit labore quae esse.
-      Illo, recusandae optio saepe dolorum maxime ducimus pariatur repellat, temporibus, eligendi excepturi repudiandae vero atque delectus debitis aspernatur aliquid odit voluptatum. Voluptatem, voluptatum tempora. Amet tenetur ex facere deleniti quia!
-      Dolorum nesciunt, soluta, non blanditiis, tempore asperiores dolorem ullam laboriosam rerum enim perferendis ducimus quam nemo iure. Quod dolorem libero commodi, eos amet quasi. Illum magnam nam consequatur in eius.
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde cupiditate aperiam beatae! At reprehenderit tempore molestias dolorem asperiores, itaque suscipit eaque laborum fugit odit odio adipisci aspernatur possimus illum totam.
-      Rerum odio ipsam totam, adipisci nam velit quas culpa quae eius omnis quos veritatis consectetur corrupti ullam. Quasi animi, officiis recusandae, veniam ea doloremque voluptatum in alias quisquam delectus necessitatibus.
-      Deserunt, consectetur a architecto nesciunt quidem doloremque ratione, esse odit laborum placeat ipsam eaque cupiditate nisi repudiandae consequatur est rerum provident exercitationem facere alias. Recusandae exercitationem harum quis eius quo!
-      Iste quas repellendus nostrum, nam laborum tempora eius, qui sunt dolore consectetur eaque modi, reprehenderit exercitationem at voluptatibus optio temporibus alias quis? Repellendus mollitia ab quas deserunt adipisci minus possimus?
-      Voluptates vero dolores dolore dolorem atque fugit ex deserunt sapiente ullam accusantium accusamus praesentium tempore unde, hic doloremque qui? Veritatis tenetur id unde error repudiandae, incidunt officia modi enim sunt?
-      Ipsum exercitationem minus aliquam non ducimus excepturi saepe tempore at numquam ipsam, pariatur recusandae laudantium molestias totam officiis cupiditate odio laboriosam eligendi aliquid obcaecati repellendus corrupti odit molestiae cumque! Accusamus.
-      Doloribus voluptas iste amet repudiandae velit suscipit, temporibus voluptatum dolor nemo animi, officiis, deserunt natus tempora dolorem facilis dolores a aut ea nesciunt molestias perferendis accusamus? Ipsam tenetur tempora ipsum?
-      Eligendi atque, odit nulla corrupti nisi quia mollitia, quae fuga consequatur quos, accusamus harum exercitationem! Totam velit facere dolores suscipit tempora architecto illum molestiae nam doloremque. Quasi tempore corrupti est?
-      Doloremque, corrupti recusandae, debitis earum, eum adipisci magnam repellat dignissimos totam harum iste delectus quibusdam nostrum ipsum reiciendis? Amet voluptas sint asperiores dolor? Esse quisquam eaque voluptates accusantium, corrupti veniam.
-      Esse similique tenetur itaque tempora, fuga, eos beatae provident doloribus, voluptates eius sint quam sed voluptatibus ut. Nihil dolorem aliquid molestiae adipisci. Accusamus sint porro, ipsam tempore delectus excepturi consectetur?
-    </div>
-  </div> -->
+
   </div>
+
+  <!----PRE-LAB----->
   <div class="container-fluid" id="Pre-Lab" style="color: rgb(3, 0, 3);display: none;">
 
 
@@ -415,77 +394,26 @@ VRF= \sqrt{{(\frac{\frac{V_M}{\sqrt2}}{\frac{{2V}_M}{\pi}})}^2}-1
     <h6>Ans.  The efficiency of a rectifier circuit is the ratio of the DC power output to the AC power input. It can be calculated by dividing the DC output power by the AC input power and multiplying the result by 100 to get the percentage efficiency.</h6><br>
 
   </p>
-   <!-- <table>
-    <tr>
-      <th>SL No.</th>
-      <th>T(in Kelvin)</th>
-      <th>(I<sub>D</sub>)(In mA)</th>
-    </tr>
-    <tr>
-      <td>1.</td>
-      <td>300 K</td>
-      <td></td>
-   </tr>
-   <tr>
-    <td>2.</td>
-    <td>325 K</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>3.</td>
-    <td>350 K</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>4.</td>
-    <td>375 K</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>5.</td>
-    <td>400 K</td>
-    <td></td>
-  </tr>
-
-   </table> -->
-  
    
-        
-     
-   
-
 
   </div>
+
+  <!----------PROCEDURE------->
   <div class="row" id="Procedure" style="color: rgb(2, 20, 21);display: none;">
     <h6>1.Input the primary voltage value (V<sub>IN(P)</sub>).</h6><br>
     <h6>2.The corresponding secondary voltage will be calculated (V<sub>IN(S)</sub>).</h6><br>
     <h6>3.Set the linear frequency (preferably 50 Hz).</h6><br>
     <h6>4.The load resistor (R<sub>L</sub>) is fixed at 1 KΩ.</h6><br>
     <h6>5.Click calculate to get the output values.</h6><br>
-
-    
-           
-    
-
-    
   </div>
-  <div class="row" id="Observations" style="color: rgb(242, 255, 0);display: none;">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum tenetur architecto, eius dolore sint cum sequi facilis voluptate deserunt reiciendis doloribus similique eum ab culpa quia, amet non alias dolores!
-    Nulla quam aspernatur distinctio, quasi a expedita dignissimos necessitatibus totam vel nemo non excepturi amet sunt quibusdam veritatis qui suscipit nostrum molestias doloribus adipisci explicabo pariatur! Inventore commodi beatae mollitia!
-    Eum veniam laboriosam necessitatibus, amet unde, reiciendis qui laudantium error perferendis magni veritatis aperiam quasi aspernatur. Rem, reprehenderit optio deserunt porro ullam excepturi tempora perspiciatis fugiat, necessitatibus ut dignissimos fugit.
-    Ducimus labore quaerat voluptates ratione accusantium, earum assumenda officiis, eum quisquam ullam laborum odio, velit deleniti tenetur sed similique! Voluptates sed voluptatibus voluptatum tenetur libero necessitatibus expedita provident sit modi.
-    Quis, cumque. Id nisi laborum aspernatur voluptate ad aut iusto eius rem odio reiciendis soluta, dolorem possimus in, tempora, modi ducimus. Soluta inventore harum quisquam pariatur omnis? Recusandae, dolorem aperiam.
-    Esse recusandae repellendus laudantium illo labore ex facere nihil necessitatibus neque. Nemo, tempora ipsum, deleniti impedit minima quidem, expedita quos inventore velit explicabo magnam ut quibusdam maxime consequuntur minus voluptate!
-    Illum repellendus asperiores ducimus ex esse magni nihil eaque ut unde quibusdam laudantium fugiat ad, cumque quia iure eligendi omnis repellat. Distinctio maxime nostrum veritatis? Saepe officia esse praesentium est?
-    Eveniet quas error sequi? Dolores cum perspiciatis non debitis facilis, voluptatibus omnis quaerat sit tenetur, adipisci voluptate recusandae reprehenderit molestiae sequi ipsum dolor? Doloribus cupiditate debitis quidem reiciendis itaque magnam.
-    Reprehenderit similique quis dolorem debitis consequatur ullam obcaecati esse alias quos sapiente, aliquid asperiores aspernatur nemo exercitationem rerum laudantium natus! Labore facilis perferendis quo. Perferendis molestiae nam eius optio accusamus!
-    Facere quaerat vero officiis, pariatur eius explicabo molestiae laboriosam odit repellendus eaque reprehenderit deserunt! Aliquid, illo obcaecati. Neque quos, dignissimos obcaecati inventore aliquid tenetur velit. Maiores totam iure enim tempore!
-  </div>
+
+  <!---------SIMULATOR------>
   <div class="row" id="Simulator" style="color: rgb(10, 10, 11);display: none;">
    <p>TO PERFORM SIMULATION OF THIS EXPERIMENT</p>
-   <div>   <button class="btn btn-dark" id="BtnEX1" type="button"><h6>CLICK HERE</h6></button>
+   <div>   <a href="https://electricalvlab.github.io/suryanshu/" style="text-decoration: none; color:rgb(2, 20, 21);"><button class="btn btn-dark" id="BtnEX1" type="button"><h6>CLICK HERE</h6></button></a>
    </div>
   </div>
+
 
   <!-- Post lab -->
 
@@ -570,8 +498,7 @@ VRF= \sqrt{{(\frac{\frac{V_M}{\sqrt2}}{\frac{{2V}_M}{\pi}})}^2}-1
         <div class="form-group blue-border-focus">
         <p>Ans: b</p>
         <span style="font-size: 1rem;">
-          <!-- $${TUF = {\frac{P_{DC}}{VA\ rolling\ of\ transformer}}}$$ -->
-          $$ {PF = \frac{Peak\ Value}{RMS\ Value} = \frac{V_M}{\frac{V_M}{\sqrt2}} = 1.414} $$                             
+          $${TUF = {\frac{P_{DC}}{VA\ rolling\ of\ transformer}}}$$
         </span>
         <span style="font-size: 1rem;">
           $$ {= \frac{{I_{DC}}^2X\ R_L\ }{\frac{V_m}{\sqrt2}\ X\ \frac{I_m}{\sqrt2}}} $$          
@@ -739,26 +666,28 @@ VRF= \sqrt{{(\frac{\frac{V_M}{\sqrt2}}{\frac{{2V}_M}{\pi}})}^2}-1
       </span>
     </div>
     </div>
+    
    
   </ol>
   </div>
   
-<div>
-<input class="btn btn-primary" type="submit" value="Submit" id="post-submit" onclick="thpostlabsubmit()">
-</div>
+  
+ <div>
+ <input class="btn btn-primary" type="submit" value="Submit" id="post-submit" onclick="thpostlabsubmit()">
+ </div>
   </div>
-          
-  
+ </div>
+  </div>
 
-  
-  
 
   <!-- Conclusion -->
-
   <div class="row" id="Conclusion">
     <h6>1. In conclusion, the rectifier experiment is a fundamental experiment in electronics that helps students understand the basic operation of a rectifier circuit. The experiment involves the construction and testing of a half-wave and full-wave rectifier circuit, which are essential components in power supplies and various other electronic circuits.</h6><br>
     <h6>2. The experiment provides hands-on experience in building electronic circuits and using testing equipment such as oscilloscopes and multimeters. It also helps students understand the principles of diode operation and how they can be used to convert AC power to DC power.</h6><br>
   </div>
+
+
+  <!-----DOWNLOAD---->
   <div id="pdf-btn">
   <div class="row" id="Download" style="color: rgb(51, 0, 255);display: none;">
     <a href="/Assets/V-I characteristics/Smart Grid.pdf" download class="download-btn">Download
@@ -766,61 +695,18 @@ VRF= \sqrt{{(\frac{\frac{V_M}{\sqrt2}}{\frac{{2V}_M}{\pi}})}^2}-1
     </a>
   </div>
   </div>
- 
+  </div>
 
-</div>
+
   <footer class="bg-dark pt-5 pb-4 m-0">
     <div class="container text-center text-md-left" id="footer-contain">
      <div class="row text-center text-md-left">
-      <!-- <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-        <h5 class="text-uppercase mb-4 font-weight-bold " id="footer-text">ELECTRONICS VIRTUAL LAB</h5>
-      <img src="src\LOGOElectronics.png" width="200">  
-  
-      </div>
-      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-        <h5 class="text-uppercase mb-4 font-weight-bold " id="footer-text">LINKS</h5>
-  
-        <p>
-          <a href="#" class="text" id="subfoot-text">GCEK</a>
-        </p>
-        <p>
-          <a href="#" class="text" id="subfoot-text">Central Library GCEK</a>
-        </p>
-        <p>
-          <a href="#" class="text" id="subfoot-text">GCEK Student Attendance</a>
-        </p>
-        <p>
-          <a href="#" class="text" id="subfoot-text">Virtual Lab Attendance</a>
-        </p>
-      </div>
-      <div class="col-md-3 coll-lg-2 col-xl-2 mx-auto mt-3">
-        <h5 class="text-uppercase mb-4 font-weight-bold" id="footer-text">LEGAL</h5>
-        <p>
-          <a href="#" class="text" id="subfoot-text">Terms & Conditions</a> -->
-        <!-- </p>
-        <p>
-          <a href="#" class="text" id="subfoot-text">Privacy Policy</a>
-        </p>
-        <p>
-          <a href="#" class="text" id="subfoot-text">Disclaimer</a>
-        </p>
-  </div>
-   -->
-  <!-- <div class="col-md-4 col-lg-3 col col-xl-3 mx-auto mt-3"> -->
-    <!-- <h5 class="text-uppercase mb-4 font-weight-bold" id="footer-text">contact us</h5> -->
-    <!-- <p id="college-name">Government College of Engineering Kalahandi,Bhawanipatna </p> -->
-    <!-- <p id="admin-email">admin@electronicsvlab.com</p> -->
-    <!-- <p id="number">+91 123456789</p> -->
       
   </div>
  
   <hr id="line">
   <p id="copy">© 2023 ELECTRONICS VIRTUAL LAB-All Rights Reserved</p>
-  <!-- <p id="develop">Developed Electronics Virtual Lab Team (2019-2023 Batch)</p> -->
-  <!-- <p id="college-namehr">Government College of Engineering Kalahandi,Bhawanipatna</p> -->
-  <!-- </div> -->
-     <!-- </div> -->
-    <!-- </div> -->
+
   </footer>
   
   </body>
