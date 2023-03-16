@@ -1381,7 +1381,30 @@ body{
 
 
 
-
+#options{
+  padding: 1vw;
+  font-weight: normal !important;
+}
+#answer-area{
+  padding:1vw;
+}
+#answer-content{
+  margin-bottom: 1vw;
+  margin-left: 1vw;
+}
+/* #thans4,#thans3,#thans5,#thans7,#thans8,#thans9,#thans10{
+  font-weight: bold;
+  display: none;
+  text-align: justify;
+} */
+#post-submit{
+  float: right;
+  margin-bottom: 1vw;
+  margin-top: -1vw;
+}
+#hwans1,#hwans2,#hwans4,#hwans5{
+  display: none;
+}
 
 
 

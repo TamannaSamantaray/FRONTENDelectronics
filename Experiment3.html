@@ -14,6 +14,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="EXP-3\script.js"></script>
 </head>
 <body class="Exbody">
   <header>
@@ -485,75 +486,275 @@ VRF= \sqrt{{(\frac{\frac{V_M}{\sqrt2}}{\frac{{2V}_M}{\pi}})}^2}-1
    <div>   <button class="btn btn-dark" id="BtnEX1" type="button"><h6>CLICK HERE</h6></button>
    </div>
   </div>
+
+  <!-- Post lab -->
+
   <div class="row" id="Post-Lab" style="color: rgb(11, 12, 12);display: none;">
-   <h4>POST LAB FOR V-I CHARACTERISTICS OF P-N JUNCTION DIODE</h4><br>
-   <form>
-
-    <p>1.Which one of the following I-V characteristics is the ideal characteristics for a P-N junction diode?
-      <label>     
-         <img class="img-fluid" src="Assets/V-I characteristics/Qstn1a.png">
-         <input type="radio">
-      </label>
-      <label>
-         <img class="img-fluid" src="Assets/V-I characteristics/Qstn1b.png">
-         <input type="radio">
+   <h4>POST LAB FOR HALF-WAVE AND FULL WAVE RECTIFIER</h4><br>
+   <div style="text-align: justify;">
+    <ol style="font-weight: bold;">
+    <!------Ques 1------->  
+    <li>The number of diodes used in Full-wave centre - tapped rectifier is 2. And that of full-wave Bridge rectifier is 4. What is the sum of PIV across each diode of both the rectifiers, if peak of supply volage is V<sub>m</sub>?</li>
+    <div id="options">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="hwqs1" id="hwqs1_op1">
+        <label class="form-check-label" for="hwqs1_op1">
+          $${6V_m}$$ 
         </label>
-        <label>
-         <img class="img-fluid" src="Assets/V-I characteristics/Qstn1c.png">
-         <input type="radio">
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="hwqs1" id="hwqs1_op2">
+        <label class="form-check-label" for="hwqs1_op2">
+          $${2V_m}$$
         </label>
-        <label>
-         <img class="img-fluid" src="Assets/V-I characteristics/Qstn1d.png">
-         <input type="radio">
-        </label><br>
-        Ans: (D)
-          (1). If current is positive (i.e., going from P to N), voltage across diode = 0V. Thus, device is short circuited and it allow any current to flow through it.<br>
-          (2). Current can’t be negative (i.e., from N to P), current through P to N = 0A. Thus, device is open circuited and it can take any voltage across itself.<br>
-        
-          2.  The voltage of the current supplied by voltage source is ?<br>
-          <img class="img-fluid" src="Assets/V-I characteristics/Post Lab dig1.png" style="height:20vw; width:30vw"><br>
-
-          <label>
-            a.0.5mA   
-           <input type="radio">
-          </label>
-          <label>
-            b.-0.5mA      
-           <input type="radio">
-          </label>
-          <label>
-            c. 0mA    
-           <input type="radio">
-          </label>
-          <label>
-            d.-2mA
-    
-           <input type="radio">
-          </label><br>
-
-          Ans: (c) The 5V battery orientation is opposing the diode, hence diode is OFF and I = 0mA.<br>
-
-          3. Find diode voltage, if T = 300 K, Is for Ge = 10-6A, ID = 8mA (Assume ŋ = 1)<br>
-          Ans: Using Shockley’s Equation,
-
-          <span style="font-size: 1rem;">
-            <p style="float:right;">(1)</p>
-            <!-- $$ {I_D = I_s [e^(V_D/V_T )-1]} $$                         -->
-            $${V_{3 \Omega}=V_3=\frac{-15 \times 2}{5}=-3 \times 2=-6 \mathrm{~V}}$$
-        </span>
-        Given,
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="hwqs1" id="hwqs1_op3">
+        <label class="form-check-label" for="hwqs1_op3">
+          $${3V_m}$$  
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="hwqs1" id="hwqs1_op4">
+        <label class="form-check-label" for="hwqs1_op4">
+          $${V_m}$$
+        </label>
+      </div>
+      <div class="container-fluid" id="hwans1">
+        <div class="form-group blue-border-focus">
+        <p>Ans: c</p>
         <span style="font-size: 1rem;">
-          <p style="float:right;"></p>
-          $$ {I_D = 8mA,  I_s = 10^(-6) A, T = 300 K} $$                        
+          $${3V_{m}}$$
+        </span>
+        <span style="font-size: 1rem;">
+          PIV of FW centre- tapped Rectifier = $$ {2V_{m}} $$          
+        </span>
+        <span style="font-size: 1rem;">
+          PIV of FW bridge rectifier = $$ {V_{m}} $$          
+        </span>
+        <span style="font-size: 1rem;">
+          So, sum = $$ {2V_m + V_m = 3V_m } $$          
+        </span>
+      </div>
+      </div>
+    <!------Ques 2------->
+    <li>Determine the TUF of 5:2 step-down transformer if R<sub>f</sub> = 25Ω and
+      R<sub>L</sub> = 5K Ω. (Rounded up to 3 decimal places)
+    </li>
+    <div id="options">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="hwqs2" id="hwqs2_op1">
+        <label class="form-check-label" for="hwqs2_op1">
+          0.286 
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="hwqs2" id="hwqs2_op2">
+        <label class="form-check-label" for="hwqs2_op2">
+          0.285
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="hwqs2" id="hwqs2_op3">
+        <label class="form-check-label" for="hwqs2_op3">
+          0.284  
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="hwqs2" id="hwqs2_op4">
+        <label class="form-check-label" for="hwqs2_op4">
+          0.283
+        </label>
+      </div>
+      <div class="container-fluid" id="hwans2" style="background-color: transparent;">
+        <div class="form-group blue-border-focus">
+        <p>Ans: b</p>
+        <span style="font-size: 1rem;">
+          <!-- $${TUF = {\frac{P_{DC}}{VA\ rolling\ of\ transformer}}}$$ -->
+          $$ {PF = \frac{Peak\ Value}{RMS\ Value} = \frac{V_M}{\frac{V_M}{\sqrt2}} = 1.414} $$                             
+        </span>
+        <span style="font-size: 1rem;">
+          $$ {= \frac{{I_{DC}}^2X\ R_L\ }{\frac{V_m}{\sqrt2}\ X\ \frac{I_m}{\sqrt2}}} $$          
+        </span>
+        <span style="font-size: 1rem;">
+          $$ {= \frac{\frac{{I_m}^2}{\Pi^2}\ X\ \ R_L}{\frac{{I_m}^2(R_f\ +R_L)}{2\sqrt2}}} $$          
+        </span>
+        <span style="font-size: 1rem;">
+          $$ {TUF = \frac{2\sqrt2}{\Pi} \frac{R_f}{(R_f\ +R_L)}} $$          
+        </span>
+        <span style="font-size: 1rem;">
+          $${So, TUF = 0.286 X \frac{5000}{25+5000} = 0.285}$$
+        </span>
+      </div>
+      </div>
+    <!------Ques 3------->
+    <li>Determine the TUF of 5:2 step-down transformer if R<sub>f</sub> = 25Ω and
+      R<sub>L</sub> = 5K Ω. (Rounded up to 3 decimal places)
+    </li>
+    <div id="options">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="hwqs2" id="hwqs2_op1">
+        <label class="form-check-label" for="hwqs2_op1">
+          0.286 
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="hwqs2" id="hwqs2_op2">
+        <label class="form-check-label" for="hwqs2_op2">
+          0.285
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="hwqs2" id="hwqs2_op3">
+        <label class="form-check-label" for="hwqs2_op3">
+          0.284  
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="hwqs2" id="hwqs2_op4">
+        <label class="form-check-label" for="hwqs2_op4">
+          0.283
+        </label>
+      </div>
+      <div class="container-fluid" id="hwans2">
+        <div class="form-group blue-border-focus">
+        <p>Ans: b</p>
+        <span style="font-size: 1rem;">
+          $${TUF = \frac{P_DC}{(VA rolling of transformer)}}$$
+        </span>
+        <span style="font-size: 1rem;">
+          $$ {((I_DC)^2 X R_L )/(V_m/√2  X I_m/√2)} $$          
+        </span>
+        <span style="font-size: 1rem;">
+          $$ {((I_m)^2/Π^2   X  R_L)/(((I_m)^2 (R_f  +R_L))/(2√2))} $$          
+        </span>
+        <span style="font-size: 1rem;">
+          $$ {TUF = (2√2)/Π R_f/((R_f  +R_L))} $$          
+        </span>
+        <span style="font-size: 1rem;">
+          So, TUF = $${0.286 X 5000/(25+5000)}$$ = 0.285
+        </span>
+      </div>
+      </div>
+    <!------Ques 4------->
+      <li>Determine the ratio of 
+        <span style="font-size: 1rem;">
+          $${{(\mathbf{TUF})}_{\mathbf{Bridge}} : {(\mathbf{TUF})}_{\mathbf{centre}-\mathbf{tapped}} if \mathbf{R}_\mathbf{L} = 2K\mathbf{\Omega}}$$
+        </span></li>
+      <div id="answer-area">
+        <div class="form-group blue-border-focus">
+          <textarea class="form-control" id="thtext-area5" rows="5"></textarea>
+        </div>
+      </div>
+      <div class="container-fluid" id="hwans4">
+        <div class="form-group blue-border-focus">
+        <p>Ans: 1.173</p>
+        <p>As number R<sub>f</sub> id given so, we will assume R<sub>f</sub> =0.</p>
+        <p>Then, in general TUF of centred-tapped is given by</p>
+        <span style="font-size: 1rem;">
+          $${{(TUF)}_{avg} = \frac{{(TUF)}_{PW}+{(TUF)}_{SW}}{2}}$$
+        </span>
+        <span style="font-size: 1rem;">
+          $$ {{(TUF)}_{PW} = 0.812 X \frac{R_L}{(R_f\ +R_L)}} $$          
+        </span>
+        <p>
+          As, R<sub>f</sub> =0,
+        </p>
+        <span style="font-size: 1rem;">
+          $$ {{(TUF)}_{PW} = 0.812} $$          
+        </span>
+        <span style="font-size: 1rem;">
+          $$ { {(TUF)}_{SW} = 2 X {(TUF)}_{HWR} = 2 X 0.286 = 0.572} $$          
+        </span>
+        <span style="font-size: 1rem;">
+          $$ { {(TUF)}_{centre-tapped} = {(TUF)}_{avg} = \frac{0.812+0.572}{2} = 0.692 ------------ (1)} $$          
+        </span>
+
+        <span style="font-size: 1rem;">
+          $$ { {(TUF)}_{Bridge} = 0.812 X \frac{R_L}{2R_f\ +R_L} = 0.812 --------------(2)} $$          
+        </span>
+        <p>Now, equation (2) divided by equation (1) is,</p>
+        <span style="font-size: 1rem;">
+          $$ { \frac{0.812}{0.692} = 1.173} $$          
+        </span>
+      </div>
+      </div>
+    <!------Ques 5------->
+    <li>A full wave rectifier has  
+      <span style="font-size: 1rem;">
+        $${\mathbf{R}_\mathbf{L} = 1.5K\mathbf{\Omega} and \mathbf{R}_\mathbf{f} = 30\mathbf{\Omega}}$$
+      </span></li>
+      <p>If the turns ratio from primary to half of secondary transformer is 4:1 and primary winding voltage is 240V (RMS), 50Hz, calculate,
+        1. Average output current 2. RMS output current 3. Efficiency 4. PIV
+        </p>
+    <div id="answer-area">
+      <div class="form-group blue-border-focus">
+        <textarea class="form-control" id="thtext-area5" rows="5"></textarea>
+      </div>
+    </div>
+    <div class="container-fluid" id="hwans5">
+      <div class="form-group blue-border-focus">
+      <p>Ans: </p>
+      <p>Given,</p>
+      <p>R<sub>L</sub> = 1.5K\Omega</p>
+      <p>R<sub>f</sub> = 30\Omega</p>
+
+      <span style="font-size: 1rem;">
+        $${Turns ratio = \frac{N_1}{N_2} = \frac{4}{1}}$$
+      </span>
+      <span style="font-size: 1rem;">
+        $$ {{(V_P)}_{RMS} = 240V} $$          
+      </span>
+      <p>
+        F= 50Hz 
+      </p>
+      <span style="font-size: 1rem;">
+        $$ {i. Secondary RMS voltage =  {(V_S)}_{RMS} =\frac{N_2}{N_1} X {(V_P)}_{RMS}
+				=> {(V_S)}_{RMS} = \frac{240}{4} = 60V
+				=> \frac{V_M}{\sqrt2} = 60V
+ 				=> V_M = 60\sqrt2 = 84.853V
+        } $$          
+      </span>
+      <span style="font-size: 1rem;">
+        $$ { Now, I_m = \frac{V_m}{(R_f\ +R_f)} = \frac{\ 60\sqrt2}{(1500+30)} 
+        => I_m = 0.05546 A or 55.46 mA
+      } $$          
+      </span>
+      <span style="font-size: 1rem;">
+        $$ { {(I_O)}_{Avg} = \frac{2I_m}{\Pi} = 0.0353 or 35.3mA} $$          
       </span>
 
-
-     </p>
-
-
-   </form>
-  
+      <span style="font-size: 1rem;">
+        $${ii. {(I_O)}_{RMS} = \frac{I_m}{\sqrt2}\ = 39.216mA} $$          
+      </span>
+      <!-- <p>Now, equation (2) divided by equation (1) is,</p> -->
+      <span style="font-size: 1rem;">
+        $$ { iii. %ŋ = \frac{P_{dc}}{P_{ac}} X 100%
+        = \frac{{{(I_O)}_{Avg}}^2\ X\ R_L}{{I_{RMS}}^2(R_f\ +R_L)}X 100%
+         = \frac{\frac{{4I_m}^2}{\Pi^2}\ X\ R_L\ \ }{\frac{{I_m}^2}{2}(R_f\ +R_L)}\ X\ 100 = \frac{800}{\Pi^2}\ X\ \frac{R_L}{R_f\ +R_L} % So, %ŋ = \frac{800}{\Pi^2} X \frac{1500}{1530} = 79.467 % %ŋ = 79.467%} $$          
+      </span>
+      <span style="font-size: 1rem;">
+        $${iv. PIV = 2V_M = 2 X 60 X \sqrt2 = 169.705 V
+          PIV = 169.705V} $$          
+      </span>
+    </div>
+    </div>
+   
+  </ol>
   </div>
+  
+<div>
+<input class="btn btn-primary" type="submit" value="Submit" id="post-submit" onclick="thpostlabsubmit()">
+</div>
+  </div>
+          
+  
+
+  
+  
+
+  <!-- Conclusion -->
+
   <div class="row" id="Conclusion">
     <h6>1. In conclusion, the rectifier experiment is a fundamental experiment in electronics that helps students understand the basic operation of a rectifier circuit. The experiment involves the construction and testing of a half-wave and full-wave rectifier circuit, which are essential components in power supplies and various other electronic circuits.</h6><br>
     <h6>2. The experiment provides hands-on experience in building electronic circuits and using testing equipment such as oscilloscopes and multimeters. It also helps students understand the principles of diode operation and how they can be used to convert AC power to DC power.</h6><br>

@@ -45,7 +45,7 @@
  <button class="btn btn-dark" id="BtnEX2" type="button" onclick="function2()"><h6>APPARATUS</h6></button>
  <button class="btn btn-dark" id="BtnEX3" type="button" onclick="function3()"><h6>THEORY</h6></button>
  <button class="btn btn-dark" id="BtnEX4" type="button" onclick="function4()"><h6>PRE LAB</h6></button>
- <button class="btn btn-dark" id="BtnEX5" type="button" onclick="function5()"><h6>PROCEDURE</h6></button>
+ <!-- <button class="btn btn-dark" id="BtnEX5" type="button" onclick="function5()"><h6>PROCEDURE</h6></button> -->
  <!-- <button class="btn btn-dark" id="BtnEX6" type="button" onclick="function6()"><h6>OBSERVATIONS</h6></button> -->
  <button class="btn btn-dark" id="BtnEX7" type="button" onclick="function7()"><h6>SIMULATOR</h6></button>
  <button class="btn btn-dark" id="BtnEX8" type="button" onclick="function8()"><h6>POST LAB</h6></button>
@@ -515,74 +515,116 @@ VRF= \sqrt{{(\frac{\frac{V_M}{\sqrt2}}{\frac{{2V}_M}{\pi}})}^2}-1
    </div>
   </div>
   <div class="row" id="Post-Lab" style="color: rgb(11, 12, 12);display: none;">
-   <h4>POST LAB FOR V-I CHARACTERISTICS OF P-N JUNCTION DIODE</h4><br>
-   <form>
+   <h4>POST LAB FOR CLIPPER CIRCUITS</h4><br>
+   <div class="row" id="Post-Lab" style="color: rgb(11, 12, 12);display: none;">
+    <!-- <h4>POST LAB FOR HALF-WAVE AND FULL WAVE RECTIFIER</h4><br> -->
+    <div style="text-align: justify;">
+     <ol style="font-weight: bold;">
+     <!------Ques 1------->  
+     <li>1. Which is the main component in the working of clipper circuit?</li>
+     <div id="options">
+       <div class="form-check">
+         <input class="form-check-input" type="radio" name="hwqs1" id="hwqs1_op1">
+         <label class="form-check-label" for="hwqs1_op1">
+          a. Voltage Source  
+         </label>
+       </div>
+       <div class="form-check">
+         <input class="form-check-input" type="radio" name="hwqs1" id="hwqs1_op2">
+         <label class="form-check-label" for="hwqs1_op2">
+          b. Resistor
+         </label>
+       </div>
+       <div class="form-check">
+         <input class="form-check-input" type="radio" name="hwqs1" id="hwqs1_op3">
+         <label class="form-check-label" for="hwqs1_op3">
+          c. Diode 
+         </label>
+       </div>
+       <div class="form-check">
+         <input class="form-check-input" type="radio" name="hwqs1" id="hwqs1_op4">
+         <label class="form-check-label" for="hwqs1_op4">
+          d. Inductor
+         </label>
+       </div>
+       <div class="container-fluid" id="hwans1">
+         <div class="form-group blue-border-focus">
+         <p>Ans: c</p>
+         <p>The diode is fundamental component, whose ON and OFF characteristics always used in clipper circuit.</p>
+       </div>
+       </div>
 
-    <p>1.Which one of the following I-V characteristics is the ideal characteristics for a P-N junction diode?
-      <label>     
-         <img class="img-fluid" src="Assets/V-I characteristics/Qstn1a.png">
-         <input type="radio">
-      </label>
-      <label>
-         <img class="img-fluid" src="Assets/V-I characteristics/Qstn1b.png">
-         <input type="radio">
-        </label>
-        <label>
-         <img class="img-fluid" src="Assets/V-I characteristics/Qstn1c.png">
-         <input type="radio">
-        </label>
-        <label>
-         <img class="img-fluid" src="Assets/V-I characteristics/Qstn1d.png">
-         <input type="radio">
-        </label><br>
-        Ans: (D)
-          (1). If current is positive (i.e., going from P to N), voltage across diode = 0V. Thus, device is short circuited and it allow any current to flow through it.<br>
-          (2). Current can’t be negative (i.e., from N to P), current through P to N = 0A. Thus, device is open circuited and it can take any voltage across itself.<br>
-        
-          2.  The voltage of the current supplied by voltage source is ?<br>
-          <img class="img-fluid" src="Assets/V-I characteristics/Post Lab dig1.png" style="height:20vw; width:30vw"><br>
+        <!------Ques 2------->  
+     <li>2. Which of the following is not a suitable name for clipper circuit?</li>
+     <div id="options">
+       <div class="form-check">
+         <input class="form-check-input" type="radio" name="hwqs1" id="hwqs1_op1">
+         <label class="form-check-label" for="hwqs1_op1">
+          a. Amplitude Selector Circuit  
+         </label>
+       </div>
+       <div class="form-check">
+         <input class="form-check-input" type="radio" name="hwqs1" id="hwqs1_op2">
+         <label class="form-check-label" for="hwqs1_op2">
+          b. Amplitude Limiter Circuit
+         </label>
+       </div>
+       <div class="form-check">
+         <input class="form-check-input" type="radio" name="hwqs1" id="hwqs1_op3">
+         <label class="form-check-label" for="hwqs1_op3">
+          c. Wave Shaping Circuit
+         </label>
+       </div>
+       <div class="form-check">
+         <input class="form-check-input" type="radio" name="hwqs1" id="hwqs1_op4">
+         <label class="form-check-label" for="hwqs1_op4">
+          d. Wave Shifting Circuit
+         </label>
+       </div>
+       <div class="container-fluid" id="hwans1">
+         <div class="form-group blue-border-focus">
+         <p>Ans: d</p>
+         <!-- <p>The diode is fundamental component, whose ON and OFF characteristics always used in clipper circuit.</p> -->
+       </div>
+       </div>
 
-          <label>
-            a.0.5mA   
-           <input type="radio">
-          </label>
-          <label>
-            b.-0.5mA      
-           <input type="radio">
-          </label>
-          <label>
-            c. 0mA    
-           <input type="radio">
-          </label>
-          <label>
-            d.-2mA
-    
-           <input type="radio">
-          </label><br>
+        <!------Ques 3------->  
+     <li>3. What is the use of resistor in clipper circuit?</li>
+     <!-- <div id="options">
+       <div class="form-check">
+         <input class="form-check-input" type="radio" name="hwqs1" id="hwqs1_op1">
+         <label class="form-check-label" for="hwqs1_op1">
+          a. Amplitude Selector Circuit  
+         </label>
+       </div>
+       <div class="form-check">
+         <input class="form-check-input" type="radio" name="hwqs1" id="hwqs1_op2">
+         <label class="form-check-label" for="hwqs1_op2">
+          b. Amplitude Limiter Circuit
+         </label>
+       </div>
+       <div class="form-check">
+         <input class="form-check-input" type="radio" name="hwqs1" id="hwqs1_op3">
+         <label class="form-check-label" for="hwqs1_op3">
+          c. Wave Shaping Circuit
+         </label>
+       </div>
+       <div class="form-check">
+         <input class="form-check-input" type="radio" name="hwqs1" id="hwqs1_op4">
+         <label class="form-check-label" for="hwqs1_op4">
+          d. Wave Shifting Circuit
+         </label>
+       </div> -->
+       <div class="container-fluid" id="hwans1">
+         <div class="form-group blue-border-focus">
+         <p>Ans: </p>
+         <p>Resistor has two important purposes in clipper circuit. They are:</p>
 
-          Ans: (c) The 5V battery orientation is opposing the diode, hence diode is OFF and I = 0mA.<br>
+         <p>1. It acts as limiting resistor, i.e., to the forward flow of current.</p>
+         <p>2. It doesn’t change the biasing of the diode, it provides stability to the overall circuit.</p>
 
-          3. Find diode voltage, if T = 300 K, Is for Ge = 10-6A, ID = 8mA (Assume ŋ = 1)<br>
-          Ans: Using Shockley’s Equation,
-
-          <span style="font-size: 1rem;">
-            <p style="float:right;">(1)</p>
-            <!-- $$ {I_D = I_s [e^(V_D/V_T )-1]} $$                         -->
-            $${V_{3 \Omega}=V_3=\frac{-15 \times 2}{5}=-3 \times 2=-6 \mathrm{~V}}$$
-        </span>
-        Given,
-        <span style="font-size: 1rem;">
-          <p style="float:right;"></p>
-          $$ {I_D = 8mA,  I_s = 10^(-6) A, T = 300 K} $$                        
-      </span>
-
-
-     </p>
-
-
-   </form>
-  
-  </div>
+       </div>
+       </div>
   <div class="row" id="Conclusion">
     <h6>1.The clipper circuit experiment is a fundamental experiment in electronics that explores the behavior of a clipper circuit, a type of electronic circuit that clips or cuts off a portion of an input signal. The experiment helps to understand the principles of operation of the clipper circuit, the types of clipper circuits, and how to design and analyze clipper circuits.</h6><br>
     <h6>2.The experiment involves constructing a clipper circuit using a diode, a resistor, and a signal generator, and observing the output waveform of the circuit on an oscilloscope. By changing the values of the circuit components, the amplitude and phase of the input signal, and the polarity of the diode, the output waveform can be clipped and its shape can be modified.</h6><br>
